@@ -54,11 +54,7 @@ h2{
     text-align: center;
     //h2 utulizei para texto nossa historia, visao, missão e velores...
 }
-img.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+
  
 #submenu {
     
@@ -66,23 +62,27 @@ img.displayed {
     margin-right: auto
    
 }
-img.endsmanoel {
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    background-size:100% 
-        // coloquei estas cordenadas mas não tenho certeza se esta correto, para as imagens da pagina 
-        // unidades 
+#endsmanoel {
+    
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    
                        
    }   
                 
-img.endcentro {
+#endcentro {
+    width: 300px;
+    height: 150px;
+    background: #900;
+    color: #FFF;
+    padding: 20px;
+    border: 5px solid #CCC;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     background-size:100%
-     // coloquei estas cordenadas mas não tenho certeza se esta correto, para as imagens da pagina 
-        // unidades
+     
 }
 #menurodape{
     background-color: black;

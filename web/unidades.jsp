@@ -6,8 +6,8 @@
         <meta charset="utf-8"/>
         <title>Barbearia Limonada</title>
         <link rel="icon" href="imagens/logo.png">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     </head>
