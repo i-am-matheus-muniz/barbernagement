@@ -1,46 +1,67 @@
 #menu {
-
-    background-color: black;
-    opacity: 0.7;
-
+    background-color: #000;
 }
-
-.btn {
-    color: white;
-}
-
-.btn:hover{
-    color: #41ee4a;
-}
-
-.btn-dark, .btn-success{
-    opacity: 0.7;
-}
-
-.btn-dark:hover, .btn-success:hover {
-    color: white;
-    opacity: 1;
-}
-
-.btn-space {
-    margin-right: 5px;
-}
-
 #icone {
     height: 40px;
     width: 40px;
 }
+#bodyunidade {
+    font-size: 20px;
+    justify-content: auto;
+}
+#submenu {
+    
+    margin-left: auto;
+    margin-right: auto
+}
+#endsmanoel {
+    position: absolute;
+    width: 600px;
+    height: 600px;          
+   }            
+#endcentro {
+    width: 300px;
+    height: 150px;
+    background: #900;
+    color: #FFF;
+    padding: 20px;
+    border: 5px solid #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-size:100% 
+}
+#menurodape{
+    background-color: black;
+    opacity: 0.7;
+    height:150px
+}
 
+
+
+.btn {
+    color: white;
+}
+.btn:hover{
+    color: #41ee4a;
+}
+.btn-dark, .btn-success{
+    opacity: 0.7;
+}
+.btn-dark:hover, .btn-success:hover {
+    color: white;
+    opacity: 1;
+}
+.btn-space {
+    margin-right: 5px;
+}
 .container-fluid {
     background-image: url("c://Users/v/Desktop/Github/cybertech/imagens/barbearia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#bodyunidade {
-    font-size: 20px;
-    justify-content: auto;
-}
+
 
 h1 {
     font-family: sans-serif;
@@ -54,45 +75,9 @@ h2{
     text-align: center;
     //h2 utulizei para texto nossa historia, visao, missão e velores...
 }
-
- 
-#submenu {
-    
-    margin-left: auto;
-    margin-right: auto
-   
-}
-#endsmanoel {
-    
-    position: absolute;
-    width: 600px;
-    height: 600px;
-    
-                       
-   }   
-                
-#endcentro {
-    width: 300px;
-    height: 150px;
-    background: #900;
-    color: #FFF;
-    padding: 20px;
-    border: 5px solid #CCC;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    background-size:100%
-     
-}
-#menurodape{
-    background-color: black;
-    opacity: 0.7;
-    height:150px
-}
 h3{
     font-family: sans-serif;
     font-size: 18px;
     text-align:justify;
-    //configuração do texto ref. ao endereço/pagina unidades
-    
+    //configuração do texto ref. ao endereço/pagina unidades   
 }
