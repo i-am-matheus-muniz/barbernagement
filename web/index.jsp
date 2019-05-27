@@ -36,11 +36,7 @@
             <!--B-->
             <div class="row" id="body">
                 <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-                    
-
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+                   
                 </div>
             </div>
 
