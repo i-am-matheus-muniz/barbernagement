@@ -17,6 +17,8 @@
                     <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
                     <a class="btn" href="cadastre_login.jsp" role="button">Barbearia Limonada</a>
                 </div>
+                
+                
                 <!--E-->
                 <div class="col-12 col-md-12 row d-flex justify-content-end align-items-center">
                     
@@ -24,11 +26,7 @@
                     <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
                     <a class="btn" href="unidades.jsp" role="button">Unidades</a>
                     <a class="btn" href="produtos.jsp" role="button">Produtos</a>
-                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
-                    
-                   
-                    
-                    
+                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
 
