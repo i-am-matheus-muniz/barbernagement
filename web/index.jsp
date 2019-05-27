@@ -19,7 +19,7 @@
                     <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
                 </div>
                 <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
+                <div class="col-12 col-md-12 row d-flex justify-content-end align-items-center">
                     
                     <a class="btn" href="index.jsp" role="button">Home</a>
                     <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
