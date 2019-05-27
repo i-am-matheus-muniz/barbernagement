@@ -11,6 +11,35 @@
     font-size: 20px;
     justify-content: auto;
 }
+#submenu {
+    
+    margin-left: auto;
+    margin-right: auto
+}
+#endsmanoel {
+    position: absolute;
+    width: 600px;
+    height: 600px;          
+   }   
+                
+#endcentro {
+    width: 300px;
+    height: 150px;
+    background: #900;
+    color: #FFF;
+    padding: 20px;
+    border: 5px solid #CCC;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    background-size:100%
+     
+}
+#menurodape{
+    background-color: black;
+    opacity: 0.7;
+    height:150px
+}
 
 .btn {
     color: white;
@@ -37,11 +66,6 @@
     background-image: url("c://Users/v/Desktop/Github/cybertech/imagens/barbearia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#bodyunidade {
-    font-size: 20px;
-    justify-content: auto;
 }
 
 h1 {
