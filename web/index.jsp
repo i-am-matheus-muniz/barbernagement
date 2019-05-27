@@ -15,7 +15,7 @@
                 <!--A-->
                 <div class="col-12 col-md-12 row d-flex justify-content-start align-items-center">
                     <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                    <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
+                    <a class="btn" href="cadastre_login.jsp" role="button">Barbearia Limonada</a>
                 </div>
                 <!--E-->
                 <div class="col-12 col-md-12 row d-flex justify-content-end align-items-center">
