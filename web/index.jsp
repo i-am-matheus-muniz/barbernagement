@@ -47,11 +47,11 @@
 
             <div class="row">
                 <!--C-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-md-12">
 
                 </div>
                 <!--D-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-md-12">
 
                 </div>
             </div>
