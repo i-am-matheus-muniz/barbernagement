@@ -7,6 +7,10 @@
     height: 40px;
     width: 40px;
 }
+#bodyunidade {
+    font-size: 20px;
+    justify-content: auto;
+}
 
 .btn {
     color: white;
