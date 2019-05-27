@@ -44,29 +44,26 @@
 .btn {
     color: white;
 }
-
 .btn:hover{
     color: #41ee4a;
 }
-
 .btn-dark, .btn-success{
     opacity: 0.7;
 }
-
 .btn-dark:hover, .btn-success:hover {
     color: white;
     opacity: 1;
 }
-
 .btn-space {
     margin-right: 5px;
 }
-
 .container-fluid {
     background-image: url("c://Users/v/Desktop/Github/cybertech/imagens/barbearia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
 
 h1 {
     font-family: sans-serif;
