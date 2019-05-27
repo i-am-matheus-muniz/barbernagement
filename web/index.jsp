@@ -47,7 +47,7 @@
 
             <div class="row">
                 <!--C-->
-                <div class="col-12 col-md-12">
+                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
 
                 </div>
                 <!--D-->
