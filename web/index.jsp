@@ -32,8 +32,8 @@
             <!--B-->
             <div class="row" id="body">
                 <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
+                    
                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                       
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="imagens/BARBEARIA C.G.jpg" alt="First slide">
@@ -45,8 +45,8 @@
                             <img class="d-block w-100" src="..." alt="Third slide">
                           </div>
                         </div>
-                       
                      </div>
+                    
                 </div>
             </div>
 
