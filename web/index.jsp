@@ -31,7 +31,7 @@
             </div>
             <!--B-->
             <div class="row" id="body">
-                 <img src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">   
+                 <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">   
             </div>
             </div>
 
