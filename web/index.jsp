@@ -17,20 +17,36 @@
                     <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
                     <a class="btn" href="cadastre_login.jsp" role="button">Barbearia Limonada</a>
                 </div>
+                
+                
                 <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">                    
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
                     <a class="btn" href="index.jsp" role="button">Home</a>
                     <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
-                    <a class="btn" href="unidades.jsp" role="button">Unidades</a>
+                    <a class="btn" href="sobrenos.jsp" role="button">Serviços</a>
                     <a class="btn" href="produtos.jsp" role="button">Produtos</a>
-                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
+                    <a class="btn" href="unidades.jsp" role="button">Unidades</a>
+                    <a class="btn" href="eventos.jsp" role="button">Contato</a>             
                 </div>
             </div>
-
             <!--B-->
             <div class="row" id="body">
                 <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-                   
+                    
+                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="imagens/BARBEARIA C.G.jpg" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="..." alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="..." alt="Third slide">
+                          </div>
+                        </div>
+                     </div>
+                    
                 </div>
             </div>
 
