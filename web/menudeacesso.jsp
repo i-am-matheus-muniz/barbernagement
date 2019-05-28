@@ -29,9 +29,11 @@
             </div>
 
             <!--B-->
-            <div class="row" id="body">
+            <div class="row" id="bodymenudeacesso">
                 <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-                   
+                    <h1> Menu de Acesso </h1>
+                    <br><br>
+                    <p> Faça seu cadastro e concorra a prêmios! </p>
                 </div>
             </div>
 
