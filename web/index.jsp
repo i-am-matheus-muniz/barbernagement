@@ -39,7 +39,7 @@
                             <img class="container-fluid" alt="First slide">
                             <img class="img-fluid" src="imagens/BARBEARIA C.G.jpg" alt="First slide">
                           </div>
-                          </div>
+                        </div>
                         </div>
                      </div>
                     
