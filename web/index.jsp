@@ -31,19 +31,8 @@
             </div>
             <!--B-->
             <div class="row" id="body">
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-                    
-                   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="container-fluid" alt="First slide">
-                            <img class="img-fluid" src="imagens/BARBEARIA C.G.jpg" alt="First slide">
-                          </div>
-                        </div>
-                        </div>
-                     </div>
-                    
-                </div>
+                 <img src="imagens/BARBEARIACG.jpg" class="img-fluid" alt="Imagem responsiva">   
+            </div>
             </div>
 
 
