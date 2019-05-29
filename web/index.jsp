@@ -32,7 +32,7 @@
             <!--B-->
             <div class="row" id="body">
                  <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">
-                 <div class="container" id="logo-home">
+                 <div class="container-logo">
                     <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
                  </div>
             </div>
