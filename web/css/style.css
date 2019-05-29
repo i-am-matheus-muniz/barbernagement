@@ -101,3 +101,7 @@ h3{
     text-align:justify;
     //configuração do texto ref. ao endereço/pagina unidades   
 }
+div.container-logo{
+    height: 10em;
+    position: relative;
+}
