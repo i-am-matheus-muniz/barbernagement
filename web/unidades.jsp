@@ -12,7 +12,7 @@
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="container-fluid img-fluid">
+        
            <div class="container-fluid img-fluid">
             <div class="row" id="menu">
                 <!--A-->
@@ -37,7 +37,7 @@
             <div class="row" id="bodyunidade">
 
                 <div id="endsmanoel" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
+                    <img style="border: 4px solid #CCC;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
                     <h3> Unidade I - São Manoel<br>
                         <br>
                         Rua: Maria do Carmo Guimarães França, 334 - São Manoel - Guaratingueta - SP
@@ -45,7 +45,7 @@
                     </h3>                   
                 </div>
                 <div  id="endcentro" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img src="imagens/BARBEARIA C.G.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
+                    <img style="border: 4px solid #CCC;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
                     <h3> Unidade II - Campo do Galvão<br><br>
                         Rua: R. Alvares Cabral, 452 Campo do Galvão - Guaratingueta - SP
                         Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
@@ -55,7 +55,7 @@
 
             </div>
 
-        </div>
+        
         <div class="row" id="menurodape">
             <!--A-->
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
@@ -66,4 +66,6 @@
 
             </div>  
         </div>
+            
+           </div>
 </html>
