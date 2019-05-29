@@ -45,46 +45,47 @@
 
                 </div>
                 <!--D-->
-                <!-- Footer -->
-                   <footer class="page-footer font-small unique-color-dark">
+                    
+                    <!-- Footer -->
+                    <footer class="page-footer font-small unique-color-dark">
 
-                     <div style="background-color: #6351ce;">
-                       <div class="container">
+                      <div style="background-color: #6351ce;">
+                        <div class="container">
 
                           <!-- Grid row-->
-                         <div class="row py-4 d-flex align-items-center">
+                          <div class="row py-4 d-flex align-items-center">
 
                             <!-- Grid column -->
-                           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
                               <h6 class="mb-0">Get connected with us on social networks!</h6>
-                           </div>
+                            </div>
                             <!-- Grid column -->
 
                             <!-- Grid column -->
-                         <div class="col-md-6 col-lg-7 text-center text-md-right">
+                            <div class="col-md-6 col-lg-7 text-center text-md-right">
 
                               <!-- Facebook -->
-                            <a class="fb-ic">
-                              <i class="fab fa-facebook-f white-text mr-4"> </i>
-                            </a>
+                              <a class="fb-ic">
+                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                              </a>
                               <!-- Twitter -->
-                            <a class="tw-ic">
-                              <i class="fab fa-twitter white-text mr-4"> </i>
-                            </a>
+                              <a class="tw-ic">
+                                <i class="fab fa-twitter white-text mr-4"> </i>
+                              </a>
                               <!-- Google +-->
-                            <a class="gplus-ic">
-                              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                            </a>
+                              <a class="gplus-ic">
+                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                              </a>
                               <!--Linkedin -->
-                            <a class="li-ic">
-                              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                            </a>
+                              <a class="li-ic">
+                                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                              </a>
                               <!--Instagram-->
-                            <a class="ins-ic">
-                              <i class="fab fa-instagram white-text"> </i>
-                            </a>
+                              <a class="ins-ic">
+                                <i class="fab fa-instagram white-text"> </i>
+                              </a>
 
-                         </div>
+                            </div>
                             <!-- Grid column -->
 
                           </div>
@@ -188,6 +189,7 @@
 
                     </footer>
                     <!-- Footer -->
+                
                 <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
 
                 </div>
