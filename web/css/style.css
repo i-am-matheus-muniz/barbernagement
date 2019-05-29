@@ -45,8 +45,8 @@
     width: 1400px;
 }
 #imagem-logo{
-    max-width: 487px;
-    max-height: 517px;
+    max-width: 420px;
+    max-height: 470px;
 }
 
 
@@ -111,5 +111,5 @@ div.container-logo img{
     top: 50%;
     left: 50%;
     margin-right: 50%;
-    transform: translate(-185%, -13%)
+    transform: translate(-210%, -13%)
 }
