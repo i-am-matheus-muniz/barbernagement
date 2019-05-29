@@ -45,8 +45,8 @@
     width: 1400px;
 }
 #imagem-logo{
-    width: 700px;
-    heigth: 50px;
+    max-width: 70px;
+    max-height: 70px;
 }
 
 
