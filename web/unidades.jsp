@@ -4,7 +4,7 @@
 
     <head>
         <meta charset="utf-8"/>
-        <title>Barbearia Limonada</title>
+        <title>Barbearia </title>
         <link rel="icon" href="imagens/logo.png">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
