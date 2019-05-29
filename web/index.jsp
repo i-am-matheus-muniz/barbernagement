@@ -35,10 +35,6 @@
                  <div class="container-logo">
                     <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
                  </div>
-                 
-                 <div class="container-text">
-                     <p>Seja Bem vindo a Barbearia Limonada!</p>
-                 </div>
             </div>
             </div>
 
