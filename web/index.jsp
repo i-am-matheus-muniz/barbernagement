@@ -35,6 +35,10 @@
                  <div class="container-logo">
                     <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
                  </div>
+                 
+                 <di class="container" id="fundo-home">
+                     <img id="fundo-div-home" src="imagens/fundodiv.jpg" class="img-fluid" alt="Imagem responsiva">
+                 </di>
             </div>
             </div>
 
