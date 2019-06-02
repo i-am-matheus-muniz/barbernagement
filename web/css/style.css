@@ -14,13 +14,23 @@
     margin-left: auto;
     margin-right: auto
 }
+#unidadetitulo{
+    width: 100%;
+    height: 60px;
+    background: #000;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    background-size:100%   
+    
+}
 #endsmanoel {
     width: 300px;
     height: 150px;
     background: #000;
     color: #FFF;
-    padding: 45px;
-    border: 4px solid #CCC;
+    border: 4px solid #b87333;
+    padding: 43px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -28,15 +38,14 @@
    }            
 #endcentro {
     width: 300px;
-    height: 150px;
+    height: auto;
     background: #000;
     color: #FFF;
-    padding: 45px;
-    border: 4px solid #CCC;
+    border: 4px solid #b87333;
+    padding: 43px;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    background-size:100% 
+    background-size:100%;
 }
 #menurodape{
     background-color: black;
@@ -102,17 +111,19 @@ h1 {
     //h1 utilizei para titulos na pagina sobre nos.
 }
 h2{
+    font-style: normal;
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
     //h2 utulizei para texto nossa historia, visao, missão e velores...
 }
 h3{
-    font-family: sans-serif;
-    font-size: 18px;
+    font-size: 15px;
+    font-family: lato;
     text-align:justify;
     //configuração do texto ref. ao endereço/pagina unidades   
 }
+
 div.container-logo{
     height: 10em;
     position: relative;
