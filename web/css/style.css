@@ -12,17 +12,12 @@
 #submenu {
     
     margin-left: auto;
-    margin-right: auto
-}
-#unidadetitulo{
-    width: 100%;
-    height: 60px;
-    background: #000;
-    color: #FFF;
-    margin-left: auto;
     margin-right: auto;
-    background-size:100%   
+}
+
+#icone_unidade{
     
+     
 }
 #endsmanoel {
     width: 300px;
