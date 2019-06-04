@@ -5,42 +5,39 @@
     height: 40px;
     width: 40px;
 }
-#bodyunidade {
-    font-size: 20px;
-    justify-content: auto;
-}
 #submenu {
     
     margin-left: auto;
     margin-right: auto;
 }
 
-#icone_unidade{
-    
-     
+#icone-unidade{
+    background-color:#000;
+    min-height: 200px;  
 }
-#endsmanoel {
+#unidadebody {
+    background-color: #000;
+    font-size: 20px;
+}
+#endmanoel {
     width: 300px;
     height: 150px;
-    background: #000;
-    color: #FFF;
-    border: 4px solid #b87333;
     padding: 43px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    background-size:100%          
-   }            
-#endcentro {
+             
+   }  
+   .body {
+    background-color: #eee;
+}
+#endgalvao {
     width: 300px;
     height: auto;
-    background: #000;
-    color: #FFF;
-    border: 4px solid #b87333;
     padding: 43px;
     margin-left: auto;
     margin-right: auto;
-    background-size:100%;
+    
 }
 #menurodape{
     background-color: black;

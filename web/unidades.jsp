@@ -6,10 +6,15 @@
         <meta charset="utf-8"/>
         <title>Barbearia </title>
         <link rel="icon" href="imagens/logo.png">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mask.min.js" type="text/javascript"></script>
+        <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/additional-methods.min.js" type="text/javascript"></script>
+        <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
     <body>
 
@@ -34,11 +39,12 @@
                 </div>
             </div>
             <!--B-->
-            <div class="row">
+            <div id="icone-unidade" class="row">
+                
                 <div class="col-12 col-md-4">                    
                 </div>
                 
-                <div id="icone_unidade" class="col-12 col-md-4"> 
+                <div  class="col-12 col-md-4"> 
                     <img src="imagens/icons8-poste-de-barbeiro-filled-50.png" alt=""/>
                         <a>_________________Unidades_________________</a>
                         <img src="imagens/icons8-poste-de-barbeiro-filled-50.png" alt=""/>
@@ -48,9 +54,9 @@
                 </div>
             </div>
              
-                <div class="row" id="bodyunidade">
+                <div class="row" id="unidadebody">
 
-                    <div id="endsmanoel" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div id="endmanoel" class="col-12 col-md-6">
                         <img style="border: 4px solid #b87333;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
                         <h3> Unidade I - São Manoel<br>
                             <br>
@@ -58,7 +64,7 @@
                             Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
                         </h3>                   
                     </div>
-                    <div  id="endcentro" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div  id="endgalvao" class="col-12 col-md-6">
                         <img style="border: 4px solid #b87333;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
                         <h3> Unidade II - Campo do Galvão<br><br>
                             Rua: R. Alvares Cabral, 452 Campo do Galvão - Guaratingueta - SP
