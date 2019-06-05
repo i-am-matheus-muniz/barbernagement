@@ -26,9 +26,9 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-             
-   }  
-   
+            
+   } 
+
 #endgalvao {
     width: 300px;
     height: auto;
@@ -52,12 +52,12 @@
 }
 #imagem-logo{
     max-width: 420px;
-    max-height: 470px;
+    max-height: 475px;
 }
-#fundo-div-home{
-    margin: 0;
-    max-height: 760px;
-    max-width: 1229px;
+#fundo-home{
+    margin-left: 0;
+    max-height: 700px;
+    max-width: 1700px;
 }
 
 
@@ -95,6 +95,9 @@
 }
 .subtitulo{
     
+}
+.body {
+   background-color: #eee;
 }
 
 
