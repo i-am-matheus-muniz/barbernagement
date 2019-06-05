@@ -1,5 +1,6 @@
 #menu {
     background-color: #000;
+  
 }
 #icone {
     height: 40px;
@@ -13,14 +14,19 @@
 
 #icone-unidade{
     background-color:#000;
-    min-height: 200px;  
+    min-height: 80px;  
+    
+}
+#imgicone{
+    
+    
 }
 #unidadebody {
     background-color: #000;
     font-size: 20px;
 }
 #endmanoel {
-    width: 300px;
+    width: 200px;
     height: 150px;
     padding: 43px;
     margin-left: auto;
@@ -30,7 +36,7 @@
    } 
 
 #endgalvao {
-    width: 300px;
+    width: 200px;
     height: auto;
     padding: 43px;
     margin-left: auto;
@@ -104,10 +110,10 @@
 
 
 h1 {
-    font-family: sans-serif;
+    font-family: lato;
     font-size: 20px;
     text-align: center;
-    //h1 utilizei para titulos na pagina sobre nos.
+    
 }
 h2{
     font-style: normal;
