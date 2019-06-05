@@ -27,10 +27,7 @@
     margin-right: auto;
     height: auto;
              
-   }  
-   .body {
-    background-color: #eee;
-}
+   } 
 #endgalvao {
     width: 300px;
     height: auto;
@@ -97,6 +94,9 @@
 }
 .subtitulo{
     
+}
+.body {
+   background-color: #eee;
 }
 
 
