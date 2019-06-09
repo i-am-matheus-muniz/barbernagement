@@ -26,10 +26,9 @@
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
                     <a class="btn" href="index.jsp" role="button">Home</a>
                     <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
-                    <a class="btn" href="sobrenos.jsp" role="button">Serviços</a>
                     <a class="btn" href="produtos.jsp" role="button">Produtos</a>
                     <a class="btn" href="unidades.jsp" role="button">Unidades</a>
-                    <a class="btn" href="eventos.jsp" role="button">Contato</a>             
+                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
                 </div>
 
             <!--B-->

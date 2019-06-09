@@ -1,13 +1,14 @@
 #menu {
     background-color: #000;
-  
+
 }
 #icone {
     height: 40px;
     width: 40px;
 }
+
 #submenu {
-    
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,11 +16,21 @@
 #icone-unidade{
     background-color:#000;
     min-height: 80px;  
-    
+
 }
-#imgicone{
-    
-    
+
+#icone_unid_direita{
+
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   
+
+}
+#icone_unid_esquerda{
+    float: right;
+
 }
 #unidadebody {
     background-color: #000;
@@ -32,16 +43,35 @@
     margin-left: auto;
     margin-right: auto;
     height: auto;
-            
-   } 
 
+} 
+#sobrenosfoto{
+   
+}
+#missao_visao_valores{
+    width: 200px;
+    height: 150px;
+    padding: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+        
+}
+#sobrenostexto{
+    width: 200px;
+    height: 150px;
+    padding: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
 #endgalvao {
     width: 200px;
     height: auto;
     padding: 43px;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 #menurodape{
     background-color: black;
@@ -100,20 +130,26 @@
     font-style: oblique;
 }
 .subtitulo{
-    
+
 }
 .body {
-   background-color: #eee;
+    background-color: #eee;
 }
 
-
+p{
+    font-family: lato;
+    font-style: normal;
+    font-size: 20px;
+    
+    
+}
 
 
 h1 {
     font-family: lato;
     font-size: 20px;
     text-align: center;
-    
+
 }
 h2{
     font-style: normal;
