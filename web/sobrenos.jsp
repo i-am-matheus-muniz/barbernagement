@@ -54,43 +54,47 @@
 
                 </div>
                 <div  id="sobrenosfoto"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <img style="border: 4px solid #CD9B6B;" src="imagens/sobrenosreajustado.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
+                    <img style="border: 4px solid #CD9B6B;" src="imagens/sobrenosreajustado.jpg" alt=""/>
                 </div>
-             </div>
+            </div>
 
-        </div>
-        <div id="icone-unidade" class="row">
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-                <center>      
-                    <img src="imagens/icons8-visível-50.png" alt=""/>
-                    <h1>Visão</h1>
-                    
-                    <p>Evoluir sempre </p>
-                </center>
+        
+        <div id="missao_visao_valores" class="row">
+            <div class="classcol-12 col-md-6 row d-flex justify-content-center align-items-center">
+
+                <img src="imagens/icons8-visível-50.png" alt=""/>
+                <h1>Visão</h1>
+
+                <p>
+                    Evoluir sempre
+                </p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-                <center> 
-                    <img src="imagens/icons8-missão-de-uma-empresa-filled-50.png" alt=""/>
-                    <h1>Missão</h1>
 
-                    <p>Estimular de maneira positiva, o corpo, mente e espírito. 
-                        Inspirar otimismo. Criar valores e fazer a diferença.</p>
-                </center>
+                <img src="imagens/icons8-missão-de-uma-empresa-filled-50.png" alt=""/>
+                <h1>Missão</h1>
+
+                <p>
+                    Estimular de maneira positiva, o corpo, mente e espírito. 
+                    Inspirar otimismo. Criar valores e fazer a diferença.
+                </p>
+
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-                <center>   
-                    <img src="imagens/icons8-diamante-50.png" alt=""/>
-                    <h1> Valores</h1>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
 
-                    <p>Deus, Famlia, Pessoas, Otimismo, Excelência
-                    </p>
-                </center>
+                <img src="imagens/icons8-diamante-50.png" alt=""/>
+                <h1> Valores</h1>
+
+                <p>
+                    Deus, Famlia, Pessoas, Otimismo, Excelência
+                </p>
+
 
             </div> 
         </div>
-
+        </div>
         <div class="row" >
             <!--C-->
 
