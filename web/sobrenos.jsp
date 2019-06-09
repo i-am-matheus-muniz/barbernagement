@@ -22,12 +22,12 @@
                     <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
                 </div>
                 <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
                     <a class="btn" href="index.jsp" role="button">Home</a>
-                    <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
+                    <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a>
                     <a class="btn" href="produtos.jsp" role="button">Produtos</a>
                     <a class="btn" href="unidades.jsp" role="button">Unidades</a>
-                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
+                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
 
@@ -36,18 +36,18 @@
                 <div id="sobrenostexto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h1>Nossa Historia</h1>
                     <p>Você conhece a historia da Limonada Barbearia? Sabe o porque
-                        desse nome tão incomum, e um tanto quanto inusitado? Hoje, vamos 
-                        compartilhar um pouco sobre nossa história (...) A Limonada nasceu a partir 
+                        desse nome tão incomum, e um tanto quanto inusitado? Hoje, vamos
+                        compartilhar um pouco sobre nossa história (...) A Limonada nasceu a partir
                         da ideia de que devemos sempre olhar o lado positivo das coisas
                         e da vida, e em meio há uma fase ruim, sem muitas expectativas, surge uma
-                        oportunidade de mergulhar de cabeça em algo que realmente lhe 
+                        oportunidade de mergulhar de cabeça em algo que realmente lhe
                         satisfazia e algo que sempre foi seu sonho, Fillipe Carvalho
-                        Lopes, empresário,então decidiu torna-lo realidade!r<strong>"Se a vida 
+                        Lopes, empresário,então decidiu torna-lo realidade!r<strong>"Se a vida
                             te der um limão, faça uma limonada".</strong>
                     </p>
                     <p>Assim, nasceu a Limonada Barbearia. A alma da
-                        empresa é fazer a diferença e poder influenciar de maneira positiva na <br> 
-                        vida de seus clientes, amigos e todos que estão envolvidos de alguma 
+                        empresa é fazer a diferença e poder influenciar de maneira positiva na <br>
+                        vida de seus clientes, amigos e todos que estão envolvidos de alguma
                         forma com a Limonada.
                     </p>
 
@@ -58,46 +58,39 @@
                 </div>
             </div>
 
-        
-        <div id="missao_visao_valores" class="row">
-            <div class="classcol-12 col-md-6 row d-flex justify-content-center align-items-center">
-
-                <img src="imagens/icons8-visível-50.png" alt=""/>
-                <h1>Visão</h1>
-
-                <p>
-                    Evoluir sempre
-                </p>
+            <div id="missao_visao_valores" class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
+                    <center>
+                    <img src="imagens/icons8-visível-50.png" alt=""/>
+                    <h1>Visão</h1>
+                    <p>
+                        Evoluir sempre
+                    </p>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
+                    <center>
+                    <img src="imagens/icons8-missão-de-uma-empresa-filled-50.png" alt=""/>
+                    <h1>Missão</h1>
+                    <p>
+                        Estimular de maneira positiva, o corpo, mente e espírito.
+                        Inspirar otimismo. Criar valores e fazer a diferença.
+                    </p>
+                    </center>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
+                    <center>
+                    <img src="imagens/icons8-diamante-50.png" alt=""/>
+                    <h1> Valores</h1>
+                    <p>
+                        Deus, Famlia, Pessoas, Otimismo, Excelência
+                    </p>
+                    </center>
+                </div>
             </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-
-                <img src="imagens/icons8-missão-de-uma-empresa-filled-50.png" alt=""/>
-                <h1>Missão</h1>
-
-                <p>
-                    Estimular de maneira positiva, o corpo, mente e espírito. 
-                    Inspirar otimismo. Criar valores e fazer a diferença.
-                </p>
-
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
-
-                <img src="imagens/icons8-diamante-50.png" alt=""/>
-                <h1> Valores</h1>
-
-                <p>
-                    Deus, Famlia, Pessoas, Otimismo, Excelência
-                </p>
-
-
-            </div> 
-        </div>
         </div>
         <div class="row" >
             <!--C-->
-
 
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
