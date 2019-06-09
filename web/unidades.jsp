@@ -79,7 +79,6 @@
                 <!--E-->
                 <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
                     <footer>
-
                         <p> Empresa</p>
                         <ul> <a Class="btn" href="index.jsp">Home</a></ul>
                         <ul> <a class="btn" href="unidades.jsp"role="button">Unidades</a></ul>
@@ -94,7 +93,6 @@
                         <ul>Whats</ul>
 
                     </footer>
-
                 </div>  
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
                     <footer>
