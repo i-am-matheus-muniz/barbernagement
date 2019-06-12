@@ -22,7 +22,7 @@
             <div class="row" id="menu">
                 <!--A-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+                    <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
                     <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
                 </div>
                 <!--E-->
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-                    <a><strong>UNIDADES</strong></a
+                    <a><strong>UNIDADES</strong></a>
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">

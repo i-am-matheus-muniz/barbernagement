@@ -15,11 +15,11 @@
         <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
     <body>
-        <div class="container-fluid img-fluid">
-           <div class="row" id="menu">
+        <div class="container-fluid img-fluid fundao">
+            <div class="row" id="menu">
                 <!--A-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+                    <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
                     <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
                 </div>
                 <!--E-->
@@ -31,25 +31,40 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
                 </div>
 
-            <!--B-->
-            <div class="row" id="body">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-
+                <!--B-->
+                <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+                        <h1 class="titulo">Produtos</h1>
+                    </div>
+                    <!--imagem dividindo-->
+                    <div class="col-3 row d-flex justify-content-center produtos_icones">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div> 
+                    <div class="col-6 row d-flex justify-content-center produtos_icones">
+                        <p class="tracejado"><strong>----------------------------------------------------------</strong></p>
+                    </div> 
+                    <div class="col-3 row d-flex justify-content-center produtos_icones">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div> 
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
+                        <p class="subtitulo">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
+                    </div>
+                    
                 </div>
+                
+
+
+                <div class="row">
+                    <!--C-->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                    </div>
+                    <!--D-->
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                    </div>
+                </div>
+
             </div>
-
-
-            <div class="row">
-                <!--C-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-                </div>
-                <!--D-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-                </div>
-            </div>
-
-        </div>
     </body>
 </html>

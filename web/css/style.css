@@ -16,7 +16,6 @@
 #icone-unidade{
     background-color:#000;
     max-height: 50px;
-          
     
 }
 
@@ -114,13 +113,13 @@ h2{
     font-family: sans-serif;
     font-size: 15px;
     text-align: center;
-    //h2 utulizei para texto nossa historia, visao, missão e velores...
+    /*h2 utulizei para texto nossa historia, visao, missão e velores...*/
 }
 h3{
     font-size: 15px;
     font-family: lato;
     text-align:justify;
-    //configuração do texto ref. ao endereço/pagina unidades   
+    /*configuração do texto ref. ao endereço/pagina unidades*/   
 }
 
 
@@ -169,10 +168,11 @@ h3{
 }
 .titulo{
     font: lato;
-    font-style: oblique;
+    font-size: 40px;
 }
 .subtitulo{
-
+    font: lato;
+    font-style: oblique;
 }
 .body {
     background-color: #eee;
@@ -189,4 +189,13 @@ div.container-logo img{
     left: 50%;
     margin-right: 50%;
     transform: translate(-210%, -13%)
+}
+
+.tracejado{
+    color: #cd9b6b;
+}
+
+.produtos_icones{
+    padding-left: 0;
+    padding-right: 0;
 }
