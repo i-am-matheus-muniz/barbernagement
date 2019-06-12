@@ -14,7 +14,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />    </head>
     <body>
-        <div class="container-fluid img-fluid">
+        <div class="container-fluid img-fluid fundao">
             <div class="row" id="menu">
                 <!--A-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
@@ -57,20 +57,20 @@
                     <img style="border: 4px solid #CD9B6B;" src="imagens/sobrenosreajustado.jpg" alt=""/>
                 </div>
             </div>
-
-            <div id="missao_visao_valores" class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
+            <br><br><br><br>
+            <div id="corpo_missao_visao_valores" class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img src="imagens/icons8-visível-50.png" alt=""/>
+                    <img id="missao_visao_valores" class="img-fluid" src="imagens/vision.png" alt=""/>
                     <h1>Visão</h1>
                     <p>
                         Evoluir sempre
                     </p>
                     </center>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img src="imagens/icons8-missão-de-uma-empresa-filled-50.png" alt=""/>
+                    <img id="missao_visao_valores" class="img-fluid" src="imagens/mission.png" alt=""/>
                     <h1>Missão</h1>
                     <p>
                         Estimular de maneira positiva, o corpo, mente e espírito.
@@ -78,10 +78,10 @@
                     </p>
                     </center>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img src="imagens/icons8-diamante-50.png" alt=""/>
-                    <h1> Valores</h1>
+                    <img id="missao_visao_valores" class="img-fluid" src="imagens/value.png" alt=""/>
+                    <h1>Valores</h1>
                     <p>
                         Deus, Famlia, Pessoas, Otimismo, Excelência
                     </p>

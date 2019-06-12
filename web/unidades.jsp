@@ -36,73 +36,74 @@
             </div>
             <!--B-->
             <div id="icone-unidade" class="row">
-                <div <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
-                        <img src="imagens/icons8-poste-de-barbeiro-filled-50.png" alt="" />
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
-                        <a><strong>---------------UNIDADES--------------</strong></a
-                    </div>
-
-                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
-                        <img src="imagens/icons8-poste-de-barbeiro-filled-50.png" alt=""/>
-                    </div> 
-                </div>
-            </div>
-            <div class="row" id="unidadebody">
-
-                <div id="endmanoel" class="col-12 col-md-6">
-                    <img style="border: 4px solid #b87333;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
-                    <h3> Unidade I - São Manoel<br>
-                        <br>
-                        Rua: Maria do Carmo Guimarães França, 334 - São Manoel - Guaratingueta - SP
-                        Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
-                    </h3>                   
-                </div>
-                <div  id="endgalvao" class="col-12 col-md-6">
-                    <img style="border: 4px solid #b87333;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
-                    <h3> Unidade II - Campo do Galvão<br><br>
-                        Rua: R. Alvares Cabral, 452 Campo do Galvão - Guaratingueta - SP
-                        Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
-                    </h3>                   
-                </div>
-
-
-            </div>
-
-
-            <div class="row" id="menurodape">
-                <!--A-->
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                </div>
-                <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
-                    <footer>
-                        <p> Empresa</p>
-                        <ul> <a Class="btn" href="index.jsp">Home</a></ul>
-                        <ul> <a class="btn" href="unidades.jsp"role="button">Unidades</a></ul>
-                        <ul> <a class="btn" href="produtos.jsp">Produtos</a></ul>
-                    </footer>
-
-                </div>  
-                <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
-                    <footer>
-                        <p>Contatos</p>
-                        <ul>Telefone</ul>
-                        <ul>Whats</ul>
-
-                    </footer>
-                </div>  
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
-                    <footer>
-                        <p>Redes Sociais</p>
-                        <ul>Facebook</ul>
-                        <ul>Instagram</ul>
-                    </footer>
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
 
-                </div>  
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-center">
+                    <a><strong>UNIDADES</strong></a
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
             </div>
+        </div>
+        <div class="row" id="unidadebody">
+
+            <div id="endmanoel" class="col-12 col-md-6">
+                <img style="border: 4px solid #b87333;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
+                <p> Unidade I - São Manoel<br>
+                    <br>
+                    Rua: Maria do Carmo Guimarães França, 334 - São Manoel - Guaratingueta - SP
+                    Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
+                </p>                   
+            </div>
+            <div  id="endgalvao" class="col-12 col-md-6">
+                <img style="border: 4px solid #b87333;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
+                <p> Unidade II - Campo do Galvão<br><br>
+                    Rua: R. Alvares Cabral, 452 Campo do Galvão - Guaratingueta - SP
+                    Horário: Terça a sexta - das 14h00 as 20h00 - Sabado das 09h00 as 18h00.
+                </p>                   
+            </div>
+
 
         </div>
+
+
+        <div class="row" id="menurodape">
+            <!--A-->
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-start align-items-center">
+                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+            </div>
+            <!--E-->
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
+                <footer>
+                    <p> Empresa</p>
+                    <ul> <a Class="btn" href="index.jsp">Home</a></ul>
+                    <ul> <a class="btn" href="unidades.jsp"role="button">Unidades</a></ul>
+                    <ul> <a class="btn" href="produtos.jsp">Produtos</a></ul>
+                </footer>
+
+            </div>  
+            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
+                <footer>
+                    <p>Contatos</p>
+                    <ul>Telefone</ul>
+                    <ul>Whats</ul>
+
+                </footer>
+            </div>  
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
+                <footer>
+                    <p>Redes Sociais</p>
+                    <ul>Facebook</ul>
+                    <ul>Instagram</ul>
+                </footer>
+
+            </div>  
+        </div>
+
+    </div>
 </html>
