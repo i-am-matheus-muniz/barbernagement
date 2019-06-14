@@ -30,12 +30,10 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
-            <br><br>
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
                     <h1 class="titulo">Barbearia Limonada</h1>
                 </div>
-                <br><br>
                 <!--imagem dividindo-->
                 <div class="col-3 row d-flex justify-content-center produtos_icones">
                     <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
