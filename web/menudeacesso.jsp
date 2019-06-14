@@ -38,20 +38,74 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="align-items-start titulo"> Menu de Acesso </h1>
                     <br>
-                    <div class="d-flex justify-content-center align-items-center">
-                    <img id="icone" src="imagens/barbershop.png">
-                    <p class="tracejado">--------------------------------------------</p>
-                    <img id="icone" src="imagens/barbershop.png">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone" src="imagens/barbershop.png">
+                        <p class="tracejado">_________________________________________</p>
+                        <img id="icone" src="imagens/barbershop.png">
                     </div>
                     <br>
                     <p class="d-flex justify-content-center subtitulo">Faça seu cadastro e concorra a prêmios!</p>
                 </div>
             </div>
-            
+
             <div class="row">
-                <div class="col-12 col-sm-4 card d-flex justify-content-center align-items-center">
-                    <div class="card-footer">Fazer Login</div>
-                    
+                <div class="col-12 card fundao d-flex justify-content-center align-items-center">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="cadastro-tab" data-toggle="tab" href="#cadastro" role="tab" aria-controls="cadastro" aria-selected="true">Cadastro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body fundao">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <!-- Cadastro -->
+                            <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">E-mail:</label>
+                                    <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">Senha:</label>
+                                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">Nome Completo:</label>
+                                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo aqui" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">Nome Completo:</label>
+                                    <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço aqui" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">Tel/Cel/Whatsapp:</label>
+                                    <input type="text" name="telefone" id="telefone" placeholder="Digite seu número aqui" class="form-control">
+                                </div>
+                                <input class="btn btn-primary" type="submit" value="Enviar"/>
+                            </form>
+                            </div>
+                            </div>
+                            <!-- Login -->
+                            <div class="card-body fundao" id="cadastro">
+                            <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">E-mail:</label>
+                                    <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="nome" class="titulomenor">Senha:</label>
+                                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui" class="form-control">
+                                </div>
+                                <input class="btn btn-primary" type="submit" value="Enviar"/>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

@@ -127,7 +127,25 @@ h1 {
 }
 
 
+/* Classes Gerais */
 
+.titulo{
+    font: lato;
+    font-size: 40px;
+}
+
+.titulomenor{
+    font: lato;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.subtitulo{
+    font: lato;
+    font-style: oblique;
+}
+
+/* Fim */
 
 .btn {
     color: white;
@@ -155,14 +173,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.titulo{
-    font: lato;
-    font-size: 40px;
-}
-.subtitulo{
-    font: lato;
-    font-style: oblique;
-}
+
 .body {
     background-color: #eee;
 }
@@ -179,6 +190,11 @@ div.container-logo img{
     margin-right: 50%;
     transform: translate(-210%, -13%)
 }
+
+/* Menu de Acesso */
+
+
+
 
 /*\/ usados pelo Gui \/*/
 .tracejado{
