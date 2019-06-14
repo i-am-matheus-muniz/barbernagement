@@ -17,7 +17,7 @@
     <body>
         <div class="container-fluid img-fluid fundao">
             <div class="row" id="menu">
-                <!--A-->
+                <!--cabeçalho-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
                     <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
                     <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
@@ -30,41 +30,91 @@
                     <a class="btn" href="unidades.jsp" role="button">Unidades</a>
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
                 </div>
-
-                <!--B-->
-                <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                        <h1 class="titulo">Produtos</h1>
-                    </div>
-                    <!--imagem dividindo-->
-                    <div class="col-3 row d-flex justify-content-center produtos_icones">
-                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                    </div> 
-                    <div class="col-6 row d-flex justify-content-center produtos_icones">
-                        <p class="tracejado"><strong>----------------------------------------------------------</strong></p>
-                    </div> 
-                    <div class="col-3 row d-flex justify-content-center produtos_icones">
-                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                    </div> 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                        <p class="subtitulo">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
-                    </div>
-                    
+            </div>
+            <!--título-->
+            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+                    <h1 class="titulo">Produtos</h1>
                 </div>
-                
-
-
-                <div class="row">
-                    <!--C-->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-                    </div>
-                    <!--D-->
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-                    </div>
+                <!--imagem dividindo-->
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div id="tracemd" class="col-6 row d-flex justify-content-center produtos_icones align-items-center">
+                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
                 </div>
+                <!--diminuir o tracejado para responsividade-->
+                <!--<div id="tracexs" class="col-6 row d-flex justify-content-center produtos_icones align-items-center">-->
+                <!--<p class="tracejado"><strong>-----------------------------</strong></p>-->
+                <!--</div>-->
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
+                    <p class="subtitulo">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
+                </div>
+            </div>
+            <!--display dos produtos - linha 1-->
+            <div class="row container-fluid">
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+            </div>
+            <!--imagem dividindo-->
+            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div class="col-6 row d-flex justify-content-center produtos_icones align-items-center">
+                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
+                </div> 
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div>
+            </div>
+            <!--display dos produtos - linha 2-->
+            <div class="row container-fluid">
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+                <div class="col justify-content-center produtos_imagens">
+                    <p class="tracejado">P R O D U T O</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--rodapé-->
+        <div class="row">
+            <!--C-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
             </div>
+            <!--D-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+            </div>
+        </div>
     </body>
 </html>

@@ -30,11 +30,27 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
-
+            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+                    <h1 class="titulo">Barbearia Limonada</h1>
+                </div>
+                <!--imagem dividindo-->
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div class="col-6 row d-flex justify-content-center produtos_icones">
+                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
+                </div> 
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+            </div>  
+            <br><br>
             <div class="row" id="submenusobrenos">
-
+                
                 <div id="sobrenostexto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h1>Nossa Historia</h1>
+                    <br>
                     <p>Você conhece a historia da Limonada Barbearia? Sabe o porque
                         desse nome tão incomum, e um tanto quanto inusitado? Hoje, vamos
                         compartilhar um pouco sobre nossa história (...) A Limonada nasceu a partir
@@ -57,34 +73,51 @@
                     <img style="border: 4px solid #CD9B6B;" src="imagens/sobrenosreajustado.jpg" alt=""/>
                 </div>
             </div>
-            <br><br><br><br>
+            <br><br>
+            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+                    <h1 class="titulo">Pilares</h1>
+                </div>
+                <br><br>
+                <!--imagem dividindo-->
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div class="col-6 row d-flex justify-content-center produtos_icones">
+                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
+                </div> 
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+            </div>  
+            <br><br>
             <div id="corpo_missao_visao_valores" class="row">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img id="missao_visao_valores" class="img-fluid" src="imagens/vision.png" alt=""/>
-                    <h1>Visão</h1>
-                    <p>
-                        Evoluir sempre
-                    </p>
+                        <img id="missao_visao_valores" class="img-fluid" src="imagens/vision.png" alt=""/>
+                        <h1>Visão</h1>
+                        <p>
+                            Evoluir sempre
+                        </p>
                     </center>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img id="missao_visao_valores" class="img-fluid" src="imagens/mission.png" alt=""/>
-                    <h1>Missão</h1>
-                    <p>
-                        Estimular de maneira positiva, o corpo, mente e espírito.
-                        Inspirar otimismo. Criar valores e fazer a diferença.
-                    </p>
+                        <img id="missao_visao_valores" class="img-fluid" src="imagens/mission.png" alt=""/>
+                        <h1>Missão</h1>
+                        <p>
+                            Estimular de maneira positiva, o corpo, mente e espírito.
+                            Inspirar otimismo. Criar valores e fazer a diferença.
+                        </p>
                     </center>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-center align-items-baseline">
                     <center>
-                    <img id="missao_visao_valores" class="img-fluid" src="imagens/value.png" alt=""/>
-                    <h1>Valores</h1>
-                    <p>
-                        Deus, Famlia, Pessoas, Otimismo, Excelência
-                    </p>
+                        <img id="missao_visao_valores" class="img-fluid" src="imagens/value.png" alt=""/>
+                        <h1>Valores</h1>
+                        <p>
+                            Deus, Famlia, Pessoas, Otimismo, Excelência
+                        </p>
                     </center>
                 </div>
             </div>
