@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <!--B-->
+            <!-- Corpo -->
             <div class="row">
                 <div class="col-12 col-sm-12">
                     <h1 class="align-items-start titulo"> Menu de Acesso </h1>
@@ -63,7 +63,7 @@
                         </div>
                         <div class="card-body fundao">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="tab-pane fade" id="cadastro" role="tabpanel" aria-labelledby="cadastro-tab">
                             <!-- Cadastro -->
                             <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
                                 <div class="form-group">
@@ -91,8 +91,9 @@
                             </div>
                             </div>
                             <!-- Login -->
-                            <div class="card-body fundao" id="cadastro">
-                            <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
+                            <div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            <div class="card-body fundao" id="login">
+                            <form name="login" id="login" method="post" action="salvar.jsp">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
                                     <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui" class="form-control">
@@ -103,7 +104,8 @@
                                 </div>
                                 <input class="btn btn-primary" type="submit" value="Enviar"/>
                             </form>
-                        </div>
+                            </div>
+                            </div>
                     </div>
 
                 </div>
