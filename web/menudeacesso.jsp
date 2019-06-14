@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
     <body>
-        <div class="container-fluid img-fluid">
+        <div class="container-fluid img-fluid fundao">
             <div class="row" id="menu">
                 <!--A-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
@@ -34,14 +34,26 @@
             </div>
 
             <!--B-->
-            <div class="row" id="bodymenudeacesso">
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-                    <h1> Menu de Acesso </h1>
-                    <br><br>
-                    <p> Faça seu cadastro e concorra a prêmios! </p>
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <h1 class="align-items-start titulo"> Menu de Acesso </h1>
+                    <br>
+                    <div class="d-flex justify-content-center align-items-center">
+                    <img id="icone" src="imagens/barbershop.png">
+                    <p class="tracejado">--------------------------------------------</p>
+                    <img id="icone" src="imagens/barbershop.png">
+                    </div>
+                    <br>
+                    <p class="d-flex justify-content-center subtitulo">Faça seu cadastro e concorra a prêmios!</p>
                 </div>
             </div>
-
+            
+            <div class="row">
+                <div class="col-12 col-sm-4 card d-flex justify-content-center align-items-center">
+                    <div class="card-footer">Fazer Login</div>
+                    
+                </div>
+            </div>
 
             <div class="row">
                 <!--C-->
