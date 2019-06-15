@@ -60,7 +60,7 @@
                         e da vida, e em meio há uma fase ruim, sem muitas expectativas, surge uma
                         oportunidade de mergulhar de cabeça em algo que realmente lhe
                         satisfazia e algo que sempre foi seu sonho, Fillipe Carvalho
-                        Lopes, empresário, então decidiu torna-lo realidade! <strong>"Se a vida
+                        Lopes, empresário, então decidiu torna-lo realidade!<strong>"Se a vida
                             te der um limão, faça uma limonada".</strong>
                     </p>
                     <p>Assim, nasceu a Limonada Barbearia. A alma da
