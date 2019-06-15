@@ -36,24 +36,24 @@
             </div>
             <!--B-->
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                        <h1 class="titulo">Unidades</h1>
-                    </div>
-                    <!--imagem dividindo-->
-                    <div class="col-3 row d-flex justify-content-center produtos_icones">
-                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                    </div> 
-                    <div class="col-6 row d-flex justify-content-center produtos_icones">
-                        <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                    </div> 
-                    <div class="col-3 row d-flex justify-content-center produtos_icones">
-                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                    </div> 
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                        <p class="subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
-                    </div>
-                                     
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+                    <h1 class="titulo">Unidades</h1>
                 </div>
+                <!--imagem dividindo-->
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div class="col-6 row d-flex justify-content-center produtos_icones">
+                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
+                </div> 
+                <div class="col-3 row d-flex justify-content-center produtos_icones">
+                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                </div> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
+                    <p class="subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
+                </div>
+
+            </div>
         </div>
         <div class="row" id="unidadebody">
 
@@ -65,7 +65,7 @@
                     334 <br>
                     São Manoel - Guaratingueta SP <br>
                     Horário: Terça a sexta - das 14h00 as 20h00<br>
-                             Sabado das 09h00 as 18h00
+                    Sabado das 09h00 as 18h00
                 </p>                   
             </div>
             <div  id="endgalvao" class="col-12 col-md-6">
@@ -74,46 +74,20 @@
                     Rua: R. Alvares Cabral, 452 <br>
                     Campo do Galvão - Guaratingueta - SP<br>
                     Horário: Terça a sexta - das 14h00 as 20h00 <br>
-                             Sabado das 09h00 as 18h00
+                    Sabado das 09h00 as 18h00
                 </p>                   
             </div>
-
-
         </div>
-
 
         <div class="row" id="menurodape">
             <!--A-->
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-start align-items-center">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
                 <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
             </div>
             <!--E-->
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
-                <footer>
-                    <p> Empresa</p>
-                    <ul> <a Class="btn" href="index.jsp">Home</a></ul>
-                    <ul> <a class="btn" href="unidades.jsp"role="button">Unidades</a></ul>
-                    <ul> <a class="btn" href="produtos.jsp">Produtos</a></ul>
-                </footer>
-
-            </div>  
-            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 row d-flex justify-content-end align-items-center">
-                <footer>
-                    <p>Contatos</p>
-                    <ul>Telefone</ul>
-                    <ul>Whats</ul>
-
-                </footer>
-            </div>  
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 row d-flex justify-content-end align-items-center">
-                <footer>
-                    <p>Redes Sociais</p>
-                    <ul>Facebook</ul>
-                    <ul>Instagram</ul>
-                </footer>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
 
             </div>  
         </div>
-
-    </div>
+    </body>
 </html>

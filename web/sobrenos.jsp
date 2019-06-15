@@ -47,7 +47,7 @@
             </div>  
             <br><br>
             <div class="row" id="submenusobrenos">
-                
+
                 <div id="sobrenostexto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h1>Nossa Historia</h1>
                     <br>
@@ -122,18 +122,60 @@
                 </div>
             </div>
         </div>
-        <div class="row" >
-            <!--C-->
+        <!-- Footer -->
+        <footer class="page-footer font-small unique-color-dark">
 
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div style="background-color: #6351ce;">
+                <div class="container">
 
+                    <!-- Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+
+
+                        <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter white-text mr-4"> </i>
+                            </a>
+                            <!-- Google +-->
+                            <a class="gplus-ic">
+                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                            </a>
+                            <!--Linkedin -->
+                            <a class="li-ic">
+                                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram white-text"> </i>
+                            </a>
+
+                        </div>
+                        <!-- Grid column -->
+
+                    </div>
+                    <!-- Grid row-->
+
+                </div>
             </div>
-            <!--D-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
+           <div class="row" id="menurodape">
+            <!--A-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
+                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
             </div>
+            <!--E-->
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
+
+            </div>  
         </div>
+        
 
-
+        
     </body>
 </html>
