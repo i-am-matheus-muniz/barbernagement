@@ -63,8 +63,8 @@
                         </div>
                         <div class="card-body fundao">
                             <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade" id="cadastro" role="tabpanel" aria-labelledby="cadastro-tab">
                             <!-- Cadastro -->
+                            <div class="tab-pane fade" id="cadastro" role="tabpanel" aria-labelledby="cadastro-tab">
                             <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
