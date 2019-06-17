@@ -41,7 +41,7 @@ anj<%@page contentType="text/html" pageEncoding="UTF-8"%>
                  </div>
                  
                  <div class="container" id="fundo-home">
-                     <img id="fundo-div-home" src="imagens/fundodiv.jpg" class="img-fluid" alt="Imagem responsiva">
+                     
                  </div>
             </div>
             </div>
