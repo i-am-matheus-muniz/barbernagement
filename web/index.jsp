@@ -38,6 +38,7 @@
                  <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">
                  <div class="container-logo">
                     <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
+                    <img id="" src="imagens/bemVindos.png" alt="Imagem responsiva"/>
                  </div>
                  
                  <div class="container" id="fundo-home">
