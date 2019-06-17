@@ -19,6 +19,10 @@
 #fundo-preto{
     height: 500px;
 }
+#barba-icon{
+    position: relative;
+    height: 200px;
+}
 
 #icone-unidade{
     background-color:#000;
