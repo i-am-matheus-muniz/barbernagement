@@ -62,9 +62,11 @@
                             </ul>
                         </div>
                         <div class="card-body fundao">
-                            <div class="tab-content" id="myTabContent">
+                            
                             <!-- Cadastro -->
-                            <div class="tab-pane fade" id="cadastro" role="tabpanel" aria-labelledby="cadastro-tab">
+                            
+                            <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade" id="cadastro" role="tabpanel">
                             <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
@@ -89,9 +91,10 @@
                                 <input class="btn btn-primary" type="submit" value="Enviar"/>
                             </form>
                             </div>
-                            </div>
+                            
                             <!-- Login -->
-                            <div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            
+                            <div class="tab-pane fade" id="login" role="tabpanel">
                             <div class="card-body fundao" id="login">
                             <form name="login" id="login" method="post" action="salvar.jsp">
                                 <div class="form-group">
@@ -104,6 +107,7 @@
                                 </div>
                                 <input class="btn btn-primary" type="submit" value="Enviar"/>
                             </form>
+                            </div>
                             </div>
                             </div>
                     </div>
