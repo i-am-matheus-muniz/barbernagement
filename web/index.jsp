@@ -12,7 +12,7 @@
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <meta name="viewport" content="width=device-width; initial-scale=1" />
+        <meta name="viewport" content="width=device-width; initial-scale=1"/>
     </head>
     <body>
         <div class="container-fluid img-fluid">
