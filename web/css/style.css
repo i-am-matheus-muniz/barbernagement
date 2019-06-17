@@ -130,6 +130,10 @@ h1 {
     top: 0px;
     left: 0px;
 }
+#frase{
+    position: absolute;
+    top: 190px;
+}
 #imagem-logo{
     max-width: 420px;
     max-height: 475px;
