@@ -126,6 +126,13 @@ h1 {
 
 #imagem-capa{
     width: 1400px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#frase{
+    position: absolute;
+    top: 190px;
 }
 #imagem-logo{
     max-width: 420px;
