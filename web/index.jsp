@@ -44,6 +44,20 @@
                  <div class="container" id="fundo-home">
                      <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
                      
+                     <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <h1 class="align-items-start titulo"> Nossos Serviços </h1>
+                        <br>
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <img id="icone" src="imagens/barbershop.png">
+                            <p class="tracejado">_________________________________________</p>
+                            <img id="icone" src="imagens/barbershop.png">
+                        </div>
+                        <br>
+                        <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
+                        </div>
+                    </div>
+                     
                      <div class="container-icon" id="position-barba">
                          <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
                      </div>
