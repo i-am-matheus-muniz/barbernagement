@@ -52,9 +52,9 @@
                 <div class="col-12 card fundao d-flex justify-content-center align-items-center">
                     <div class="card text-center">
                         <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
+                            <ul class="nav nav-tabs nav-justified card-header-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="cadastro-tab" data-toggle="tab" href="#cadastro" role="tab" aria-controls="cadastro" aria-selected="true">Cadastro</a>
+                                    <a class="nav-link" id="cadastro-tab" data-toggle="tab" href="#cadastro" role="tab" aria-controls="cadastro" aria-selected="false">Cadastro</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
