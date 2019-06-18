@@ -44,7 +44,7 @@
                  <div class="container" id="fundo-home">
                      <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
                      
-                     <div class="icon" id="position-barba">
+                     <div class="container-icon" id="position-barba">
                          <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
                      </div>
                  </div>
