@@ -49,9 +49,9 @@
                             <h1 class="align-items-start titulo"> Nossos Serviços </h1>
                         <br>
                         <div class="row d-flex justify-content-center align-items-center">
-                            <img id="icone" src="imagens/barbershop.png">
+                            <img id="icone-home" src="imagens/barbershop.png">
                             <p class="tracejado">_________________________________________</p>
-                            <img id="icone" src="imagens/barbershop.png">
+                            <img id="icone-home-01" src="imagens/barbershop.png">
                         </div>
                         <br>
                         <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
