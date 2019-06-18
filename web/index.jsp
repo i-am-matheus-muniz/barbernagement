@@ -12,7 +12,7 @@
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <meta name="viewport" content="width=device-width; initial-scale=1" />
+        <meta name="viewport" content="width=device-width; initial-scale=1"/>
     </head>
     <body>
         <div class="container-fluid img-fluid">
@@ -20,7 +20,7 @@
                 <!--A-->
                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
                     <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                    <a class="btn" href="cadastre_login.jsp" role="button">Cadastre-se/Login</a>
+                    <a class="btn" href="cadastre_login.jsp" role="button">Barbearia Limonada</a>
                 </div>
                 
                 
@@ -39,9 +39,14 @@
                  <div class="container-logo">
                     <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
                  </div>
+                 <img id="frase" src="imagens/bemVindos.png" class="img-fluid" alt="Imagem responsiva"/>
                  
                  <div class="container" id="fundo-home">
-                     <img id="fundo-div-home" src="imagens/fundodiv.jpg" class="img-fluid" alt="Imagem responsiva">
+                     <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
+                     
+                     <div class="icon" id="position-barba">
+                         <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                     </div>
                  </div>
             </div>
             </div>

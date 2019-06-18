@@ -52,9 +52,9 @@
                 <div class="col-12 card fundao d-flex justify-content-center align-items-center">
                     <div class="card text-center">
                         <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs">
+                            <ul class="nav nav-tabs nav-justified card-header-tabs">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="cadastro-tab" data-toggle="tab" href="#cadastro" role="tab" aria-controls="cadastro" aria-selected="true">Cadastro</a>
+                                    <a class="nav-link" id="cadastro-tab" data-toggle="tab" href="#cadastro" role="tab" aria-controls="cadastro" aria-selected="false">Cadastro</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" id="login-tab" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false">Login</a>
@@ -62,9 +62,11 @@
                             </ul>
                         </div>
                         <div class="card-body fundao">
-                            <div class="tab-content" id="myTabContent">
-                                <div class="tab-pane fade" id="cadastro" role="tabpanel" aria-labelledby="cadastro-tab">
+                            
                             <!-- Cadastro -->
+                            
+                            <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade" id="cadastro" role="tabpanel">
                             <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
@@ -89,9 +91,10 @@
                                 <input class="btn btn-primary" type="submit" value="Enviar"/>
                             </form>
                             </div>
-                            </div>
+                            
                             <!-- Login -->
-                            <div class="tab-pane fade" id="login" role="tabpanel" aria-labelledby="login-tab">
+                            
+                            <div class="tab-pane fade" id="login" role="tabpanel">
                             <div class="card-body fundao" id="login">
                             <form name="login" id="login" method="post" action="salvar.jsp">
                                 <div class="form-group">
@@ -104,6 +107,7 @@
                                 </div>
                                 <input class="btn btn-primary" type="submit" value="Enviar"/>
                             </form>
+                            </div>
                             </div>
                             </div>
                     </div>
