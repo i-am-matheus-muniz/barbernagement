@@ -36,22 +36,22 @@
             </div>
             <!--B-->
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                    <h1 class="titulo">Unidades</h1>
-                </div>
+                
                 <!--imagem dividindo-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-6 row d-flex justify-content-center produtos_icones">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div> 
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                    <p class="subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
+                <div class="row">
+                <div class="col-12 col-sm-12">
+                    <h1 class="align-items-start titulo"> Unidades </h1>
+                    <br>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        <p class="tracejado">_____________________________________________________________</p>
+                       <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div>
+                    <br>
+                    <p class="d-flex justify-content-center subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
                 </div>
+            </div>
+                
 
             </div>
         </div>
