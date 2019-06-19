@@ -30,7 +30,7 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
-            <br><br>
+
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-12 col-sm-12">
@@ -77,7 +77,7 @@
             </div>
             <br><br>
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                
+
                 <br><br>
                 <!--imagem dividindo-->
                 <div class="col-12 col-sm-12">
@@ -125,57 +125,55 @@
             </div>
         </div>
         <!-- Footer -->
-        <footer class="page-footer font-small unique-color-dark">
-
-            <div style="background-color: #6351ce;">
-                <div class="container">
-
-                    <!-- Grid row-->
-                    <div class="row py-4 d-flex align-items-center">
 
 
-                        <div class="col-md-6 col-lg-7 text-center text-md-right">
 
-                            <!-- Facebook -->
-                            <a class="fb-ic">
-                                <i class="fab fa-facebook-f white-text mr-4"> </i>
-                            </a>
-                            <!-- Twitter -->
-                            <a class="tw-ic">
-                                <i class="fab fa-twitter white-text mr-4"> </i>
-                            </a>
-                            <!-- Google +-->
-                            <a class="gplus-ic">
-                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                            </a>
-                            <!--Linkedin -->
-                            <a class="li-ic">
-                                <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                            </a>
-                            <!--Instagram-->
-                            <a class="ins-ic">
-                                <i class="fab fa-instagram white-text"> </i>
-                            </a>
-
-                        </div>
-                        <!-- Grid column -->
-
-                    </div>
-                    <!-- Grid row-->
-
-                </div>
+        <div class="row fundao" id="menurodape">
+            <!--A-->
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
+                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
             </div>
+            <!--E-->
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
+                <header>
+                    <h1>Links sobre empresa</h1>
+                <nav	class="menu-opcoes">
+                    <ul>
+                        <li><a href="index.jsp">Home</a></li>
+                        <li><a href="sobrenos.jsp">Sobre nós</a></li>
+                        <li><a href="produtos.jsp">Produtos</a></li>
+                        <li><a href="unidades.jsp">Unidades</a></li>
+                        <li><a href="eventos.jsp">Eventos</a></li>
+                    </ul>
+                </nav>
+                    
+                </header>
 
-            <div class="row" id="menurodape">
-                <!--A-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                </div>
-                <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
-
-                </div>  
+            </div> 
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
+                
+               <header>
+                <h1>Contatos</h1>
+                <nav	class="menu-opcoes">
+                    <ul>
+                        <li><p>(12) 2103-1745</p></li>
+                        <li><p>(12) 98141-3434</p></li>
+                    </ul>
+                </nav>
+               </header>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-end align-items-center">
+               <header>
+                <h1>Nossas redes sociais</h1>
+                <nav	class="menu-opcoes">
+                    <ul>
+                        <li><a href="https://www.facebook.com/limonadabarbearia/">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/limonadabarbearia/?hl=pt-br">Instagram</a></li>
+                    </ul>
+                </nav>
+               </header> 
+            </div>
+        </div>
 
     </body>
 </html>
