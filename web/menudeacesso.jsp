@@ -38,10 +38,9 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="align-items-start titulo"> Menu de Acesso </h1>
                     <br>
-                    <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-sm-12 row d-flex justify-content-center align-items-center">
                         <img id="icone" src="imagens/barbershop.png">
-                        <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
-                        <p id="tracinho" class="tracejado">____________________________</p>                        
+                        <p>__________________________________________</p>                   
                         <img id="icone" src="imagens/barbershop.png">
                     </div>
                     <br>
@@ -83,7 +82,7 @@
                                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo aqui" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="nome" class="titulomenor">Nome Completo:</label>
+                                    <label for="nome" class="titulomenor">Endereço:</label>
                                     <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço aqui" class="form-control">
                                 </div>
                                 <div class="form-group">
@@ -117,17 +116,7 @@
 
                 </div>
             </div>
-
-            <div class="row">
-                <!--C-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-                <!--D-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
+                   <jsp:include page="footer.jsp" /> 
         </div>
         </div>
     </body>
