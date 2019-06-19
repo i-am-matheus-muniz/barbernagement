@@ -171,10 +171,10 @@ h1 {
 .btn:hover{
     color: #41ee4a;
 }
-.btn-dark, .btn-success{
+.btn-dark{
     opacity: 0.7;
 }
-.btn-dark:hover, .btn-success:hover {
+.btn-dark:hover{
     color: white;
     opacity: 1;
 }
@@ -211,8 +211,12 @@ div.container-logo img{
 
 /* Menu de Acesso */
 
+.bg-dourado {
+  background-color: #cd9b6b !important;
+  color: #cd9b6b !important;
+}
 
-
+/* Fim */
 
 /*\/ usados pelo Gui \/*/
 .tracejado{
