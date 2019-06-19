@@ -10,6 +10,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/additional-methods.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />
@@ -17,7 +18,7 @@
     <body>
         
             <!-- Footer -->
-            <footer class="page-footer font-small blue pt-4">
+            <footer class="page-footer font-small pt-4">
 
                 <!-- Footer Links -->
                 <div class="container-fluid text-center text-md-left">
@@ -68,6 +69,24 @@
 
                             <ul class="list-unstyled">
                                 <li>
+                                    <a href="#!" id="numeroTelefone" onclick="copyToClipboard('#numeroTelefone')">(12)2103-1745</a>
+                                </li>
+                                <li>
+                                    <a href="#!" id="numeroCelular" onclick="copyToClipboard('#numeroCelular')">(12)98141-3434</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 mb-md-0 mb-3">
+
+                            <!-- Links 3 (ícones) -->
+                            <h5 class="text-uppercase">Contato</h5>
+
+                            <ul class="list-unstyled">
+                                <li>
                                     <a href="#!">(12)2103-1745</a>
                                 </li>
                                 <li>
@@ -77,7 +96,7 @@
 
                         </div>
                         <!-- Grid column -->
-
+                        
                     </div>
                     <!-- Grid row -->
 
