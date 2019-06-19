@@ -30,22 +30,20 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
-            <br><br>
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+            
                 <div class="row">
                     <div class="col-12 col-sm-12">
                         <h1 class="titulo">Nossa História</h1>
                         <br>
                         <div class="row d-flex justify-content-center align-items-center">
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                            <p class="tracejado">________________________________________________________________________</p>
+                            <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
+                            <p id="tracinho" class="tracejado">____________________________</p>
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
                         </div>
                         <br>
                     </div>
-                </div>
-
-            </div>   
+                </div> 
             <br><br>
 
             <div class="row" id="submenusobrenos">
@@ -77,7 +75,7 @@
             </div>
             <br><br>
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                
+
                 <br><br>
                 <!--imagem dividindo-->
                 <div class="col-12 col-sm-12">

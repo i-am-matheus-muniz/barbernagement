@@ -53,17 +53,25 @@
 }
 #unidadebody {
     background-color: #000;
-    font-size: 20px;
+    /*font-size: 20px;*/
 }
 #endmanoel {
-    width: 200px;
-    height: 150px;
-    padding: 43px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+    width: 600px;
+    height: 600px;
+    /*padding: 43px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*height: auto;*/
 
 } 
+#endgalvao {
+    width: 600px;
+    height: 600px;
+    /*padding: 43px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+}
 #sobrenosfoto{
     background-color: #000;
    
@@ -89,14 +97,7 @@
     margin-right: auto;
     height: auto;
 }
-#endgalvao {
-    width: 200px;
-    height: auto;
-    padding: 43px;
-    margin-left: auto;
-    margin-right: auto;
 
-}
 #menurodape{
     background-color: black;
     opacity: 0.7;
@@ -220,7 +221,7 @@ div.container-logo img{
 }
 
 /*display: none não está funcionando*/
-#tracexs{
+#tracinho{
     display: none;
 }
 
@@ -230,8 +231,8 @@ div.container-logo img{
 }
 
 .produtos_imagens{
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 300px;
@@ -240,14 +241,11 @@ div.container-logo img{
 }
 
 /*@media não funcionando também*/
-/*@media screen and(max-width: 400px){
-    #tracemd{
+@media screen and (max-width: 576px){
+    #tracao{
         display: none;
     }
-    #tracexs{
+    #tracinho{
         display: block;
     }
-    .produtos_imagens{
-        clear: both;
-    }
-}*/
+}

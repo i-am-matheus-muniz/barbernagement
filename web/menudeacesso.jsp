@@ -40,7 +40,8 @@
                     <br>
                     <div class="row d-flex justify-content-center align-items-center">
                         <img id="icone" src="imagens/barbershop.png">
-                        <p class="tracejado">_________________________________________</p>
+                        <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
+                        <p id="tracinho" class="tracejado">____________________________</p>                        
                         <img id="icone" src="imagens/barbershop.png">
                     </div>
                     <br>
@@ -125,6 +126,7 @@
 
                 </div>
             </div>
+        </div>
         </div>
     </body>
 </html>
