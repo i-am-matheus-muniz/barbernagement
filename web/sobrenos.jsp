@@ -30,22 +30,22 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>
                 </div>
             </div>
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                    <h1 class="titulo">Barbearia Limonada</h1>
-                </div>
-                <!--imagem dividindo-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+            
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <h1 class="titulo">Nossa História</h1>
+                        <br>
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                            <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
+                            <p id="tracinho" class="tracejado">____________________________</p>
+                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        </div>
+                        <br>
+                    </div>
                 </div> 
-                <div class="col-6 row d-flex justify-content-center produtos_icones">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div> 
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-            </div>  
             <br><br>
+
             <div class="row" id="submenusobrenos">
 
                 <div id="sobrenostexto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -58,7 +58,7 @@
                         e da vida, e em meio há uma fase ruim, sem muitas expectativas, surge uma
                         oportunidade de mergulhar de cabeça em algo que realmente lhe
                         satisfazia e algo que sempre foi seu sonho, Fillipe Carvalho
-                        Lopes, empresário,então decidiu torna-lo realidade!r<strong>"Se a vida
+                        Lopes, empresário, então decidiu torna-lo realidade!<strong>"Se a vida
                             te der um limão, faça uma limonada".</strong>
                     </p>
                     <p>Assim, nasceu a Limonada Barbearia. A alma da
@@ -75,20 +75,20 @@
             </div>
             <br><br>
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                    <h1 class="titulo">Pilares</h1>
-                </div>
+
                 <br><br>
                 <!--imagem dividindo-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-6 row d-flex justify-content-center produtos_icones">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div> 
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
+                <div class="col-12 col-sm-12">
+                    <h1 class="titulo">Nossos Pilares</h1>
+                    <br>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        <p class="tracejado">______________________________________________________________________________________________________</p>
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div>
+                    <br>
+                </div>
+
             </div>  
             <br><br>
             <div id="corpo_missao_visao_valores" class="row">
@@ -164,18 +164,16 @@
                 </div>
             </div>
 
-           <div class="row" id="menurodape">
-            <!--A-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+            <div class="row" id="menurodape">
+                <!--A-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
+                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+                </div>
+                <!--E-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
+
+                </div>  
             </div>
-            <!--E-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
 
-            </div>  
-        </div>
-        
-
-        
     </body>
 </html>

@@ -35,32 +35,32 @@
                 </div>
             </div>
             <!--B-->
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
-                    <h1 class="titulo">Unidades</h1>
-                </div>
-                <!--imagem dividindo-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-6 row d-flex justify-content-center produtos_icones">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div> 
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                    <p class="subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
-                </div>
 
+
+            <!--imagem dividindo-->
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <h1 class="align-items-start titulo"> Unidades </h1>
+                    <br>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
+                        <p id="tracinho" class="tracejado">____________________________</p>
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div>
+                    <br>
+                    <p class="d-flex justify-content-center subtitulo">Conheça nossas unidades de barbearias em Guaratingueta</p>
+                </div>
             </div>
+            <br><br>
         </div>
+        
+    <center>
         <div class="row" id="unidadebody">
 
-            <div id="endmanoel" class="col-12 col-md-6">
-                <img style="border: 4px solid #b87333;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
-                <p> Unidade I - São Manoel<br>
-                    <br>
+            <div class="col-12 col-md-6">
+                <img  id="endmanoel" class="img-fluid" style="border: 4px solid #b87333;" src="imagens/fotos_smanoel. Manipulada.jpg" alt="Unidade 1 - Bairro São manoel"/>
+                <p class="text-center"> Unidade I - São Manoel<br><br>
                     Rua: Maria do Carmo Guimarães França, 
                     334 <br>
                     São Manoel - Guaratingueta SP <br>
@@ -68,26 +68,27 @@
                     Sabado das 09h00 as 18h00
                 </p>                   
             </div>
-            <div  id="endgalvao" class="col-12 col-md-6">
-                <img style="border: 4px solid #b87333;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
-                <p> Unidade II - Campo do Galvão<br><br>
+            <div  class="col-12 col-md-6">
+                <img id="endgalvao"  class="img-fluid" style="border: 4px solid #b87333;" src="imagens/BARBEARIACG.jpg" alt="Unidade 2 - Bairro Campo do galvão"/>
+                <p class="text-center"> Unidade II - Campo do Galvão<br><br>
                     Rua: R. Alvares Cabral, 452 <br>
                     Campo do Galvão - Guaratingueta - SP<br>
                     Horário: Terça a sexta - das 14h00 as 20h00 <br>
                     Sabado das 09h00 as 18h00
                 </p>                   
             </div>
-        </div>
 
-        <div class="row" id="menurodape">
-            <!--A-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-            </div>
-            <!--E-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
-
-            </div>  
         </div>
-    </body>
+    </center>
+    <div class="row" id="menurodape">
+        <!--A-->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
+            <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+        </div>
+        <!--E-->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
+
+        </div>  
+    </div>
+</body>
 </html>
