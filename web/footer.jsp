@@ -18,7 +18,7 @@
     <body>
         
             <!-- Footer -->
-            <footer class="page-footer font-small pt-4">
+            <footer class="page-footer font-small pt-4 fundoFooter">
 
                 <!-- Footer Links -->
                 <div class="container-fluid text-center text-md-left">
@@ -41,7 +41,7 @@
                         <div class="col-md-3 mb-md-0 mb-3">
 
                             <!-- Links 1 -->
-                            <h5 class="text-uppercase">Navegação</h5>
+                            <h5 class="text-uppercase tituloFooter">Navegação</h5>
 
                             <ul class="list-unstyled">
                                 <li>
@@ -65,7 +65,7 @@
                         <div class="col-md-3 mb-md-0 mb-3">
 
                             <!-- Links 2 -->
-                            <h5 class="text-uppercase">Contato</h5>
+                            <h5 class="text-uppercase tituloFooter">Contato</h5>
 
                             <ul class="list-unstyled">
                                 <li>
@@ -83,7 +83,7 @@
                         <div class="col-md-3 mb-md-0 mb-3">
 
                             <!-- Links 3 (ícones) -->
-                            <h5 class="text-uppercase">Contato</h5>
+                            <h5 class="text-uppercase tituloFooter">Nos siga nas redes sociais!</h5>
 
                             <ul class="list-unstyled">
                                 <li>

@@ -254,7 +254,20 @@ div.container-logo img{
     }
 }
 
-/* Fim */
+/*/\ usados pelo Gui /\*/
+
+/* Footer */
+
+.fundoFooter{
+    background-color: #101011;
+}
+
+.tituloFooter{
+    font-weight: bold;
+    color: #989898;
+}
+
+/* Footer */
 
 body{
     background-color: #000;
