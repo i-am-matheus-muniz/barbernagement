@@ -40,21 +40,21 @@
                         <!-- Grid column -->
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <!-- Links 1 -->
+                            <!-- Links Navegação -->
                             <h5 class="text-uppercase tituloFooter">Navegação</h5>
-
+                            <br>
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">Home</a>
+                                    <a href="index.jsp" class="navegacaoFooter">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Sobre nós</a>
+                                    <a href="sobrenos.jsp" class="navegacaoFooter">Sobre nós</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Unidades</a>
+                                    <a href="unidades.jsp" class="navegacaoFooter">Unidades</a>
                                 </li>
                                 <li>
-                                    <a href="#!">Produtos</a>
+                                    <a href="produtos.jsp" class="navegacaoFooter">Produtos</a>
                                 </li>
                             </ul>
 
@@ -64,15 +64,16 @@
                         <!-- Grid column -->
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <!-- Links 2 -->
+                            <!-- Links Contato -->
                             <h5 class="text-uppercase tituloFooter">Contato</h5>
-
+                            <h6 class="tituloFooter">(Clique no número para copiar!)</h6>
+                            
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!" id="numeroTelefone" onclick="copyToClipboard('#numeroTelefone')">(12)2103-1745</a>
+                                    <p id="numeroTelefone" class="navegacaoFooter" onclick="copyToClipboard('#numeroTelefone')"><img src="imagens/telefone.png" class="iconesContatos">(12)2103-1745</p>
                                 </li>
                                 <li>
-                                    <a href="#!" id="numeroCelular" onclick="copyToClipboard('#numeroCelular')">(12)98141-3434</a>
+                                    <p id="numeroCelular" class="navegacaoFooter" onclick="copyToClipboard('#numeroCelular')"><img src="imagens/whatsapp.png" class="iconesContatos">(12)98141-3434</p>
                                 </li>
                             </ul>
 
@@ -82,16 +83,15 @@
                         <!-- Grid column -->
                         <div class="col-md-3 mb-md-0 mb-3">
 
-                            <!-- Links 3 (ícones) -->
+                            <!-- Links Redes Sociais (ícones) -->
                             <h5 class="text-uppercase tituloFooter">Nos siga nas redes sociais!</h5>
-
+                            
                             <ul class="list-unstyled">
                                 <li>
-                                    <a href="#!">(12)2103-1745</a>
+                                    <a href="https://www.facebook.com/limonadabarbearia/?rf=526534630870221"><img class="redesSociais" src="imagens/facebook.png"></a>
+                                    <a href="https://www.instagram.com/limonadabarbearia/"><img class="redesSociais" src="imagens/instagram.png"></a>
                                 </li>
-                                <li>
-                                    <a href="#!">(12)98141-3434</a>
-                                </li>
+                                    
                             </ul>
 
                         </div>
@@ -104,7 +104,7 @@
                 <!-- Footer Links -->
 
                 <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">
+                <div class="footer-copyright text-center py-3 tituloFooter">
                     © 2019 Copyright: Barbernagement
                 </div>
                 <!-- Copyright -->

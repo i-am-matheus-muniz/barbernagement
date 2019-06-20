@@ -108,7 +108,7 @@
     width: 2102.13px;
     height: 1108px;
 }
-p{
+.p1{
     color: #eee;
     font-size: 18px;
     text-align: justify;
@@ -265,6 +265,26 @@ div.container-logo img{
 .tituloFooter{
     font-weight: bold;
     color: #989898;
+}
+
+.navegacaoFooter{
+    color: #F7F7F7;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+.redesSociais {
+  width: 64px;
+  height: 64px;
+}
+
+.iconesContatos{
+    width: 33px;
+    height: 33px;
 }
 
 /* Footer */

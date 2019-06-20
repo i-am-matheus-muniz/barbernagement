@@ -114,11 +114,11 @@
                             </div>
                             </div>
                     </div>
-
                 </div>
-            </div>
-                   <jsp:include page="footer.jsp" />
+            </div>                   
         </div>
         </div>
+        <br><br><br><br><br><br><br><br><br>
+        <jsp:include page="footer.jsp" /> 
     </body>
 </html>
