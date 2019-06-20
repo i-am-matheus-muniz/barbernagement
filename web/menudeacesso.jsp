@@ -41,11 +41,11 @@
                     <br>
                     <div class="col-12 col-sm-12 row d-flex justify-content-center align-items-center">
                         <img id="icone" src="imagens/barbershop.png">
-                        <p>__________________________________________</p>                   
+                        <p class="p1">__________________________________________</p>                   
                         <img id="icone" src="imagens/barbershop.png">
                     </div>
                     <br>
-                    <p class="d-flex justify-content-center subtitulo">Faça seu cadastro e concorra a prêmios!</p>
+                    <p class="d-flex justify-content-center subtitulo p1">Faça seu cadastro e concorra a prêmios!</p>
                 </div>
             </div>
 

@@ -10,6 +10,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/additional-methods.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />    </head>
@@ -37,8 +38,8 @@
                         <br>
                         <div class="row d-flex justify-content-center align-items-center">
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                            <p id="tracao" class="tracejado">______________________________________________________________________________________________________</p>
-                            <p id="tracinho" class="tracejado">____________________________</p>
+                            <p id="tracao" class="p1 tracejado">______________________________________________________________________________________________________</p>
+                            <p id="tracinho" class="p1 tracejado">____________________________</p>
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
                         </div>
                         <br>
@@ -51,7 +52,7 @@
                 <div id="sobrenostexto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <h1>Nossa Historia</h1>
                     <br>
-                    <p>Você conhece a historia da Limonada Barbearia? Sabe o porque
+                    <p class="p1">Você conhece a historia da Limonada Barbearia? Sabe o porque
                         desse nome tão incomum, e um tanto quanto inusitado? Hoje, vamos
                         compartilhar um pouco sobre nossa história (...) A Limonada nasceu a partir
                         da ideia de que devemos sempre olhar o lado positivo das coisas
@@ -61,7 +62,7 @@
                         Lopes, empresário, então decidiu torna-lo realidade!<strong>"Se a vida
                             te der um limão, faça uma limonada".</strong>
                     </p>
-                    <p>Assim, nasceu a Limonada Barbearia. A alma da
+                    <p class="p1">Assim, nasceu a Limonada Barbearia. A alma da
                         empresa é fazer a diferença e poder influenciar de maneira positiva na <br>
                         vida de seus clientes, amigos e todos que estão envolvidos de alguma
                         forma com a Limonada.
@@ -83,7 +84,7 @@
                     <br>
                     <div class="row d-flex justify-content-center align-items-center">
                         <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                        <p class="tracejado">______________________________________________________________________________________________________</p>
+                        <p class="p1 tracejado">______________________________________________________________________________________________________</p>
                         <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
                     </div>
                     <br>
@@ -96,7 +97,7 @@
                     <center>
                         <img id="missao_visao_valores" class="img-fluid" src="imagens/vision.png" alt=""/>
                         <h1>Visão</h1>
-                        <p>
+                        <p class="p1">
                             Evoluir sempre
                         </p>
                     </center>
@@ -105,7 +106,7 @@
                     <center>
                         <img id="missao_visao_valores" class="img-fluid" src="imagens/mission.png" alt=""/>
                         <h1>Missão</h1>
-                        <p>
+                        <p class="p1">
                             Estimular de maneira positiva, o corpo, mente e espírito.
                             Inspirar otimismo. Criar valores e fazer a diferença.
                         </p>
@@ -115,65 +116,14 @@
                     <center>
                         <img id="missao_visao_valores" class="img-fluid" src="imagens/value.png" alt=""/>
                         <h1>Valores</h1>
-                        <p>
+                        <p class="p1">
                             Deus, Famlia, Pessoas, Otimismo, Excelência
                         </p>
                     </center>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <footer class="page-footer font-small unique-color-dark">
-
-            <div style="background-color: #6351ce;">
-                <div class="container">
-
-                    <!-- Grid row-->
-                    <div class="row py-4 d-flex align-items-center">
-
-
-                        <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                            <!-- Facebook -->
-                            <a class="fb-ic">
-                                <i class="fab fa-facebook-f white-text mr-4"> </i>
-                            </a>
-                            <!-- Twitter -->
-                            <a class="tw-ic">
-                                <i class="fab fa-twitter white-text mr-4"> </i>
-                            </a>
-                            <!-- Google +-->
-                            <a class="gplus-ic">
-                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
-                            </a>
-                            <!--Linkedin -->
-                            <a class="li-ic">
-                                <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                            </a>
-                            <!--Instagram-->
-                            <a class="ins-ic">
-                                <i class="fab fa-instagram white-text"> </i>
-                            </a>
-
-                        </div>
-                        <!-- Grid column -->
-
-                    </div>
-                    <!-- Grid row-->
-
-                </div>
-            </div>
-
-            <div class="row" id="menurodape">
-                <!--A-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                </div>
-                <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
-
-                </div>  
-            </div>
-
+        <br><br><br><br><br><br><br><br><br>
+        <jsp:include page="footer.jsp" /> 
     </body>
 </html>

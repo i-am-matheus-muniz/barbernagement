@@ -10,6 +10,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/additional-methods.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1"/>
@@ -50,7 +51,7 @@
                         <br>
                         <div class="row d-flex justify-content-center align-items-center">
                             <img id="icone-home" src="imagens/barbershop.png">
-                            <p class="tracejado">_________________________________________</p>
+                            <p class="tracejado p1">_________________________________________</p>
                             <img id="icone-home-01" src="imagens/barbershop.png">
                         </div>
                         <br>
@@ -65,16 +66,7 @@
             </div>
             </div>
 
-
-            <div class="row">
-                <!--C-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-                <!--D-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
+        <br><br><br><br><br><br><br><br><br>
+        <jsp:include page="footer.jsp" /> 
     </body>
 </html>
