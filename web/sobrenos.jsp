@@ -128,7 +128,7 @@
 
 
 
-        <div class="row fundao" id="menurodape">
+        <div class="row" id="menurodape">
             <!--A-->
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
                 <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
