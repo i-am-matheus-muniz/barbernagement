@@ -224,7 +224,6 @@ div.container-logo img{
     color: #cd9b6b;
 }
 
-/*display: none não está funcionando*/
 #tracinho{
     display: none;
 }
@@ -244,7 +243,6 @@ div.container-logo img{
     border: 4px solid #CD9B6B;
 }
 
-/*@media não funcionando também*/
 @media screen and (max-width: 576px){
     #tracao{
         display: none;

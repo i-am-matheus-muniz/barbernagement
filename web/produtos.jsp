@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                <p class="subtitulo">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
+                <p class="subtitulo p1">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
             </div>
 
             <!--display dos produtos - linha 1-->
@@ -68,7 +68,6 @@
                 </div>
             </center>
             <!--imagem dividindo-->
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
                 <div class="row">
                     <div class="col-12 col-sm-12">
                         <div class="row d-flex justify-content-center align-items-center">
@@ -80,7 +79,6 @@
                         <br>
                     </div>
                 </div>
-            </div>
             <!--display dos produtos - linha 2-->
             <center>
                 <div class="row container-fluid">
