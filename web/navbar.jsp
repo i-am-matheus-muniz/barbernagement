@@ -17,26 +17,37 @@
     </head>
     <body>
         
-         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+         <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.jsp"><img src="imagens/logo.png" id="icone"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="menudeacesso.jsp">Menu de acesso</a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.jsp">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="sobrenos.jsp">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
+                      <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="produtos.jsp">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="unidades.jsp">Unidades</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contato">Contato</a>
                     </li>
                   </ul>
-                  <span class="navbar-text">
-                    Navbar text with an inline element
-                  </span>
                 </div>
          </nav>
         
