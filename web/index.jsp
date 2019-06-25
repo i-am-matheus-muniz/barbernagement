@@ -10,6 +10,7 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/additional-methods.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1"/>
@@ -44,23 +45,28 @@
                  <div class="container" id="fundo-home">
                      <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
                      
-                     <div class="icon" id="position-barba">
+                     <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <h1 class="align-items-start titulo"> Nossos Serviços </h1>
+                        <br>
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <img id="icone-home" src="imagens/barbershop.png">
+                            <p class="tracejado p1">_________________________________________</p>
+                            <img id="icone-home-01" src="imagens/barbershop.png">
+                        </div>
+                        <br>
+                        <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
+                        </div>
+                    </div>
+                     
+                     <div class="container-icon" id="position-barba">
                          <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
                      </div>
                  </div>
             </div>
             </div>
 
-
-            <div class="row">
-                <!--C-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-                <!--D-->
-                <div class="col-12 col-md-12 d-flex justify-content-center align-items-center">
-
-                </div>
-            </div>
+        <br><br><br><br><br><br><br><br><br>
+        <jsp:include page="footer.jsp" /> 
     </body>
 </html>

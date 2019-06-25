@@ -10,11 +10,12 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <script src="js/additional-methods.min.js" type="text/javascript"></script>
         <script src="js/localization/messages_pt_BR.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
-    <body>
+    <body width="100%">
         <div class="container-fluid img-fluid fundao">
             <div class="row" id="menu">
                 <!--cabeçalho-->
@@ -32,89 +33,72 @@
                 </div>
             </div>
             <!--título-->
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center">
+            <div class="row">
+                <div class="col-12 col-sm-12">
                     <h1 class="titulo">Produtos</h1>
-                </div>
-                <!--imagem dividindo-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div id="tracemd" class="col-6 row d-flex justify-content-center produtos_icones align-items-center">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div>
-                <!--diminuir o tracejado para responsividade-->
-                <!--<div id="tracexs" class="col-6 row d-flex justify-content-center produtos_icones align-items-center">-->
-                <!--<p class="tracejado"><strong>-----------------------------</strong></p>-->
-                <!--</div>-->
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
-                    <p class="subtitulo">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
+                    <br>
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                        <p id="tracinho" class="tracejado p1">____________________________</p>
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div>
+                    <br>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
+                <p class="subtitulo p1">Conheça alguns dos produtos que são vendidos na Limonada Barbearia.</p>
+            </div>
+
             <!--display dos produtos - linha 1-->
-            <div class="row container-fluid">
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
+            <center>
+                <div class="row container-fluid">
+                    <div class="col-12 col-sm-3 justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
                 </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-            </div>
+            </center>
             <!--imagem dividindo-->
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                </div> 
-                <div class="col-6 row d-flex justify-content-center produtos_icones align-items-center">
-                    <p class="tracejado"><strong>-------------------------------------------------------------------------------------</strong></p>
-                </div> 
-                <div class="col-3 row d-flex justify-content-center produtos_icones">
-                    <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                <div class="row">
+                    <div class="col-12 col-sm-12">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                            <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                            <p id="tracinho" class="tracejado p1">____________________________</p>
+                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        </div>
+                        <br>
+                    </div>
                 </div>
-            </div>
             <!--display dos produtos - linha 2-->
-            <div class="row container-fluid">
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
+            <center>
+                <div class="row container-fluid">
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <p class="tracejado p1">P R O D U T O</p>
+                    </div>
                 </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-                <div class="col justify-content-center produtos_imagens">
-                    <p class="tracejado">P R O D U T O</p>
-                </div>
-            </div>
+            </center>
         </div>
-        
-        <!--rodapé-->
-        <div class="row">
-            <!--C-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
-            </div>
-            <!--D-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
-            </div>
-        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <jsp:include page="footer.jsp" /> 
     </body>
 </html>
