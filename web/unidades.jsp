@@ -80,57 +80,8 @@
             </div>
 
         </div>
-
-         <div class="row" id="menurodape">
-            <!--A-->
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
-                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-            </div>
-            <!--E-->
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
-                <header>
-                    <h1>Links sobre empresa</h1>
-                <nav	class="menu-opcoes">
-                    <ul>
-                        <li><a href="index.jsp">Home</a></li>
-                        <li><a href="sobrenos.jsp">Sobre nós</a></li>
-                        <li><a href="produtos.jsp">Produtos</a></li>
-                        <li><a href="unidades.jsp">Unidades</a></li>
-                        <li><a href="eventos.jsp">Eventos</a></li>
-                    </ul>
-                </nav>
-                    
-                </header>
-
-            </div> 
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-center align-items-center">
-                
-               <header>
-                <h1>Contatos</h1>
-                <nav	class="menu-opcoes">
-                    <ul>
-                        <li><p>(12) 2103-1745</p></li>
-                        <li><p>(12) 98141-3434</p></li>
-                    </ul>
-                </nav>
-               </header>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 row d-flex justify-content-end align-items-center">
-               <header>
-                <h1>Nossas redes sociais</h1>
-                <nav	class="menu-opcoes">
-                    <ul>
-                        <li><a href="https://www.facebook.com/limonadabarbearia/">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/limonadabarbearia/?hl=pt-br">Instagram</a></li>
-                    </ul>
-                </nav>
-               </header> 
-            </div>
-
-
-        </div>
-    </center>
-    <br><br><br><br><br><br><br><br><br>
+         
+    <br><br><br>
     <jsp:include page="footer.jsp" /> 
 </body>
 </html>
