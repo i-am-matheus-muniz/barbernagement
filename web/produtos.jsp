@@ -17,21 +17,7 @@
     </head>
     <body width="100%">
         <div class="container-fluid img-fluid fundao">
-            <div class="row" id="menu">
-                <!--cabeçalho-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                    <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
-                </div>
-                <!--E-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
-                    <a class="btn" href="index.jsp" role="button">Home</a>
-                    <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
-                    <a class="btn" href="produtos.jsp" role="button">Produtos</a>
-                    <a class="btn" href="unidades.jsp" role="button">Unidades</a>
-                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
-                </div>
-            </div>
+            <jsp:include page="navbar.jsp" />
             <!--título-->
             <div class="row">
                 <div class="col-12 col-sm-12">

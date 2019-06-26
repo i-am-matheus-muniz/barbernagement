@@ -34,6 +34,7 @@
                     <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
                 </div>
             </div>
+            <jsp:include page="navbar.jsp" />
             <!--B-->
 
             <div class="row" id="body">
