@@ -13,8 +13,9 @@
         <script src="js/scripts.js" type="text/javascript"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <meta name="viewport" content="width=device-width; initial-scale=1" />    </head>
-    <body>
+        <meta name="viewport" content="width=device-width; initial-scale=1" />    
+    </head>
+       <body width="100%">
         <div class="container-fluid img-fluid fundao">
             <jsp:include page="navbar.jsp" />
 
@@ -34,6 +35,7 @@
                         <br>
                     </div>
                 </div> 
+            
                 <br><br>
 
                 <div class="row" id="submenusobrenos">
