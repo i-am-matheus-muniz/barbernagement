@@ -17,38 +17,68 @@
     </head>
     <body>
         <div class="container-fluid img-fluid">
+            <div class="row" id="menu">
+                <!--A-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
+                    <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+                    <a class="btn" href="cadastre_login.jsp" role="button">Barbearia Limonada</a>
+                </div>
+
+
+                <!--E-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
+                    <a class="btn" href="index.jsp" role="button">Home</a>
+                    <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
+                    <a class="btn" href="produtos.jsp" role="button">Produtos</a>
+                    <a class="btn" href="unidades.jsp" role="button">Unidades</a>
+                    <a class="btn" href="eventos.jsp" role="button">Eventos</a>             
+                </div>
+            </div>
             <jsp:include page="navbar.jsp" />
             <!--B-->
+
             <div class="row" id="body">
-                 <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">
-                 <div class="container-logo">
-                    <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
-                 </div>
-                 <img id="frase" src="imagens/bemVindos.png" class="img-fluid" alt="Imagem responsiva"/>
-                 
-                 <div class="container" id="fundo-home">
-                     <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
-                     
-                     <div class="row">
+                <!--<center>-->
+                <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">
+                <!--<div class="container-logo">-->
+                <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
+                <!--</div>-->
+                <br>
+                <!--<img id="frase" src="imagens/bemVindos.png" class="img-fluid" alt="Imagem responsiva"/>-->
+                <div class="col-12 col-sm-12">
+                    <h1 class="titulo" id="boasvindas">Seja bem vindo à Barbearia Limonada!</h1>
+                </div>
+                <!--</center>-->
+                <div class="container" id="fundo-home">
+                    <img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">
+
+                    <div class="row">
                         <div class="col-12 col-sm-12">
                             <h1 class="align-items-start titulo"> Nossos Serviços </h1>
-                        <br>
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <img id="icone-home" src="imagens/barbershop.png">
-                            <p class="tracejado p1">_________________________________________</p>
-                            <img id="icone-home-01" src="imagens/barbershop.png">
-                        </div>
-                        <br>
-                        <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
+                            <br>
+                            <!--imagem dividindo-->
+                            <div class="row">
+                                <div class="col-12 col-sm-12">
+                                    <div class="row d-flex justify-content-center align-items-center">
+                                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                                        <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                                        <p id="tracinho" class="tracejado p1">____________________________</p>
+                                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
-                     
-                     <div class="container-icon" id="position-barba">
-                         <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
-                     </div>
-                 </div>
+
+                    <div class="container-icon" id="position-barba">
+                        <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                    </div>
+                </div>
             </div>
-            </div>
+        </div>
 
         <br><br><br><br><br><br><br><br><br>
         <jsp:include page="footer.jsp" /> 

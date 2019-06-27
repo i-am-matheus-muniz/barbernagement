@@ -90,12 +90,8 @@
 }
 #sobrenostexto{
     background-color: #000;
-    width: 200px;
-    height: 150px;
-    padding: 43px;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
+    
+   
 }
 
 #menurodape{
@@ -122,11 +118,16 @@ h1 {
 
 }
 
-
+#boasvindas{
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
 
 
 #imagem-capa{
-    width: 1400px;
+    width: 100%;
     position: relative;
     top: 0px;
     left: 0px;
