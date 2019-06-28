@@ -49,10 +49,10 @@
                         <div class="col-12 col-sm-12">
                             <h1 class="align-items-start titulo"> Nossos Serviços </h1>
                         <br>
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <img id="icone-home" src="imagens/barbershop.png">
-                            <p class="tracejado p1">_________________________________________</p>
-                            <img id="icone-home-01" src="imagens/barbershop.png">
+                        <div class="col-12 col-sm-12 row d-flex justify-content-center align-items-center" id="servicos-home">
+                            <img id="icone" src="imagens/barbershop.png">
+                            <p class="p1">__________________________________________</p>                   
+                            <img id="icone" src="imagens/barbershop.png">
                         </div>
                         <br>
                         <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
