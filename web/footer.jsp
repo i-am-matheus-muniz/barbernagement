@@ -62,7 +62,7 @@
                         <!-- Grid column -->
 
                         <!-- Grid column -->
-                        <div class="col-md-3 mb-md-0 mb-3">
+                        <div class="col-md-3 mb-md-0 mb-3" id="contato">
 
                             <!-- Links Contato -->
                             <h5 class="text-uppercase tituloFooter">Contato</h5>
