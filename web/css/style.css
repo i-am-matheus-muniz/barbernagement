@@ -294,3 +294,17 @@ div.container-logo img{
 body{
     background-color: #000;
 }
+
+/*config card*/
+
+._card > h3{
+    color: white !important;
+}
+._card > p{
+    color: #888 !important;
+    font-size: 20px
+}
+/*
+._card > p > img{
+    height: 130px
+}*/
