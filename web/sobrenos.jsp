@@ -15,13 +15,11 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />    
     </head>
-       <body>
+    <body>
         <div class="container-fluid img-fluid fundao">
             <jsp:include page="navbar.jsp" />
-
+            <br><br><br><br>
             <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-
-
                 <div class="row">
                     <div class="col-12 col-sm-12">
                         <h1 class="titulo">Nossa História</h1>
@@ -35,7 +33,7 @@
                         <br>
                     </div>
                 </div> 
-            
+
                 <br><br>
 
                 <div class="row" id="submenusobrenos">
@@ -68,7 +66,7 @@
                 <br><br>
                 <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
 
-                    
+
                     <!--imagem dividindo-->
                     <div class="col-12 col-sm-12">
                         <br><br><br>
