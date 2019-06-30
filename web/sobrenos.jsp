@@ -15,7 +15,7 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />    
     </head>
-       <body width="100%">
+       <body>
         <div class="container-fluid img-fluid fundao">
             <jsp:include page="navbar.jsp" />
 
