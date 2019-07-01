@@ -105,60 +105,33 @@
                             </div>
                             <br>
                             <p class="d-flex justify-content-center subtitulo p1">Conheça um pouco mais do nosso trabalho !</p>
+                            <br/><br/>
                         </div>
                     </div>
                      <div class="row text-center">
                         <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/corte1.jpg" alt="Barba e cabelo"/>
                             </p>
-
-                            <h3>Cortes de Cabelo</h3>
-                            <p>
-                                Nossos barbeiros estão preparados para atender os mais variados estilos de cortes de cabelo e sua 
-                                barba com estilo, escolha os seu corte e venha com a gente. 
-                            </p>
-
-
 
                         </div>
                         <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/index_img/scissors-kit.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/corte2.jpg" alt="Barba e cabelo"/>
                             </p>
-
-                            <h3>Manicure e Pedicure</h3>
-                            <p>
-                                Serviços em manicure e pedicure para os clientes, afinal, todas as pessoas
-                                merecem um pouco de vaidade. 
-                            </p>
-
-
 
                         </div>
                         <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/index_img/hair-salon-spray-bottles.png"  alt="Barba e cabelo"/>
-                                 
+                                <img id="barba-icon" src="imagens/corte3.jpg"  alt="Barba e cabelo"/> 
                             </p>
                             
-                            
-                            <h3>Produtos</h3>
-                            <p>
-                                Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
-                            </p>
                         </div>
                          <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/index_img/hair-salon-spray-bottles.png"  alt="Barba e cabelo"/>
-                                 
+                                <img id="barba-icon" src="imagens/corte4.jpg"  alt="Barba e cabelo"/>      
                             </p>
-                            
-                            
-                            <h3>Produtos</h3>
-                            <p>
-                                Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
-                            </p>
+                           
                         </div>
                     </div>
                     
