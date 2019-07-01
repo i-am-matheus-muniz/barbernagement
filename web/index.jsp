@@ -55,17 +55,8 @@
 
                             <h3>Cortes de Cabelo</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Nossos barbeiros estão preparados para atender os mais variados estilos de cortes de cabelo e sua 
+                                barba com estilo, escolha os seu corte e venha com a gente. 
                             </p>
 
 
@@ -73,22 +64,13 @@
                         </div>
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/index_img/scissors-kit.png" alt="Barba e cabelo"/>
                             </p>
 
-                            <h3>Cortes de Cabelo</h3>
+                            <h3>Manicure e Pedicure</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Serviços em manicure e pedicure para os clientes, afinal, todas as pessoas
+                                merecem um pouco de vaidade. 
                             </p>
 
 
@@ -96,22 +78,14 @@
                         </div>
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/index_img/hair-salon-spray-bottles.png"  alt="Barba e cabelo"/>
+                                 
                             </p>
-
-                            <h3>Cortes de Cabelo</h3>
+                            
+                            
+                            <h3>Produtos</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
                             </p>
 
 
@@ -124,7 +98,7 @@
             </div>
         </div>
 
-        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
         <jsp:include page="footer.jsp" /> 
     </body>
 </html> 
