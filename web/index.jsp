@@ -47,6 +47,7 @@
                             <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
+                    
                     <div class="row text-center">
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
@@ -87,11 +88,10 @@
                             <p>
                                 Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
                             </p>
-
-
-
                         </div>
                     </div>
+                    
+                    
 
 
                 </div>
