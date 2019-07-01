@@ -30,7 +30,7 @@
                         <div class="col-md-3 mt-md-0 mt-3">
 
                             <!-- Conteúdo imagem -->
-                            <img class="img-fluid" src="imagens/logo.png" >
+                            <img id="rodape_logo" class="img-fluid" src="imagens/logo.png" >
 
                         </div>
                         <!-- Grid column -->

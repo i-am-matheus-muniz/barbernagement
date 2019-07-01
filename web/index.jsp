@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container-fluid img-fluid">
-            <jsp:include page="navbar.jsp" />
+            <jsp:include page="navbar.jsp"/>
             <!--B-->
 
             <br><br><br>
@@ -47,6 +47,7 @@
                             <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
+                    
                     <div class="row text-center">
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
@@ -87,11 +88,53 @@
                             <p>
                                 Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
                             </p>
-
-
-
                         </div>
                     </div>
+                </div>
+                 <div class="container" id="fundo-home">
+                     <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <br>
+                            <h1 class="align-items-start titulo"> Nossa galeria </h1>
+                            <br>
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                                <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                                <p id="tracinho" class="tracejado p1">____________________________</p>
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                            </div>
+                            <br>
+                            <p class="d-flex justify-content-center subtitulo p1">Conheça um pouco mais do nosso trabalho !</p>
+                            <br/><br/>
+                        </div>
+                    </div>
+                     <div class="row text-center">
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte1.jpg" alt="Barba e cabelo"/>
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte2.jpg" alt="Barba e cabelo"/>
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte3.jpg"  alt="Barba e cabelo"/> 
+                            </p>
+                            
+                        </div>
+                         <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte4.jpg"  alt="Barba e cabelo"/>      
+                            </p>
+                           
+                        </div>
+                    </div>
+                    
 
 
                 </div>
