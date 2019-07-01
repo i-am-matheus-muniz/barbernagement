@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container-fluid img-fluid">
-            <jsp:include page="navbar.jsp" />
+            <jsp:include page="navbar.jsp"/>
             <!--B-->
 
             <br><br><br>
