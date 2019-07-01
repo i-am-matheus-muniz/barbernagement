@@ -23,7 +23,7 @@
             <jsp:include page="navbar.jsp" />
             <!--B-->
 
-
+            <br><br><br><br>
             <!--imagem dividindo-->
             <div class="row">
                 <div class="col-12 col-sm-12">
@@ -41,7 +41,7 @@
             </div>
             <br><br>
         </div>
-        
+
     <center>
         <div class="row" id="unidadebody">
 
@@ -60,14 +60,13 @@
                 <p class="text-center p1"> Unidade II - Campo do Galvão<br><br>
                     Rua: R. Alvares Cabral, 452 <br>
                     Campo do Galvão - Guaratingueta - SP<br>
-                    Horário: Terça a sexta - das 14h00 as 20h00 <br>
-                    Sabado das 09h00 as 18h00
+                    Horário: Terça a Sabado - das 10h00 as 20h00 <br>
                 </p>                   
             </div>
 
         </div>
-         
-    <br><br><br>
-    <jsp:include page="footer.jsp" /> 
-</body>
-</html>
+
+        <br><br><br>
+        <jsp:include page="footer.jsp" /> 
+        </body>
+        </html>
