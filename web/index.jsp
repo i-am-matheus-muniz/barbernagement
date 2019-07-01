@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container-fluid img-fluid">
-             <jsp:include page="navbar.jsp" />
+            <jsp:include page="navbar.jsp" />
             <!--B-->
 
             <br><br><br>
@@ -34,15 +34,17 @@
 
                     <div class="row">
                         <div class="col-12 col-sm-12">
+                            <br>
                             <h1 class="align-items-start titulo"> Nossos Serviços </h1>
                             <br>
-                            <div class="col-12 col-sm-12 row d-flex justify-content-center align-items-center" id="servicos-home">
-                                <img id="icone" src="imagens/barbershop.png">
-                                <p class="p1">__________________________________________</p>                   
-                                <img id="icone" src="imagens/barbershop.png">
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                                <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                                <p id="tracinho" class="tracejado p1">____________________________</p>
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
                             </div>
                             <br>
-                            <p class="d-flex justify-content-center subtitulo">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
+                            <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
                     <div class="row text-center">
