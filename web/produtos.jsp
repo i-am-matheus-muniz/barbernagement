@@ -41,16 +41,20 @@
             <center>
                 <div class="row container-fluid">
                     <div class="col-12 col-sm-3 justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/beer1.jpg" alt=""/>
                     </div>
                     <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/beer2.jpg" alt=""/>
                     </div>
                     <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/beer3.jpg" alt=""/>
                     </div>
                     <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/beer4.jpg" alt=""/>
                     </div>
                 </div>
             </center>
