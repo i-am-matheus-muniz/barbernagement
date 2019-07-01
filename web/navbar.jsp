@@ -35,15 +35,16 @@
                     <li class="nav-item">
                       <a class="nav-link" href="sobrenos.jsp">Sobre nós</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#servicos">Serviços</a>
-                    </li>
+                   
                     <li class="nav-item">
                       <a class="nav-link" href="produtos.jsp">Produtos</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="unidades.jsp">Unidades</a>
                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="eventos.jsp">Eventos</a>
+                    </li>                    
                     <li class="nav-item">
                       <a class="nav-link" href="#contato">Contato</a>
                     </li>

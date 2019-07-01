@@ -15,13 +15,11 @@
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <meta name="viewport" content="width=device-width; initial-scale=1" />    
     </head>
-       <body width="100%">
+    <body>
         <div class="container-fluid img-fluid fundao">
             <jsp:include page="navbar.jsp" />
-
-            <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-
-
+            <br><br><br><br>
+            <!--<div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">-->
                 <div class="row">
                     <div class="col-12 col-sm-12">
                         <h1 class="titulo">Nossa História</h1>
@@ -35,7 +33,7 @@
                         <br>
                     </div>
                 </div> 
-            
+
                 <br><br>
 
                 <div class="row" id="submenusobrenos">
@@ -61,14 +59,14 @@
 
 
                     </div>
-                    <div  id="sobrenosfoto"  class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div  id="sobrenosfoto"  class="col-12 col-md-6">
                         <img style="border: 4px solid #CD9B6B;" src="imagens/sobrenosreajustado.jpg" alt=""/>
                     </div>
                 </div>
                 <br><br>
                 <div id="body" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
 
-                    
+
                     <!--imagem dividindo-->
                     <div class="col-12 col-sm-12">
                         <br><br><br>
@@ -76,7 +74,8 @@
                         <br>
                         <div class="row d-flex justify-content-center align-items-center">
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                            <p class="p1 tracejado">______________________________________________________________________________________________________</p>
+                            <p id="tracao" class="p1 tracejado">______________________________________________________________________________________________________</p>
+                            <p id="tracinho" class="p1 tracejado">____________________________</p>
                             <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
                         </div>
                         <br>
@@ -114,7 +113,7 @@
                         </center>
                     </div>
                 </div>
-            </div>
+            <!--</div>-->
         </div>
         <!-- Footer -->
 
