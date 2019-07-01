@@ -42,6 +42,47 @@
                 <div class="row container-fluid">
                     <div class="col-12 col-sm-3 justify-content-center produtos_imagens">
                         <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/skate.jpg" alt=""/>
+                        <p class="p1 subtitulo text-center">Skates</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/barbear.jpg" alt=""/>
+                        <p class="p1 subtitulo text-center">Produtos para cabelo e barba</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/camisa4.jpg" alt=""/>
+                        <p class="p1 subtitulo text-center">Camisas</p>
+                    </div>
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
+                        <img src="imagens/fotosprodutos/camisa1.jpg" alt=""/>
+                        <p class="p1 subtitulo text-center">Mais camisas</p>
+                    </div>
+                </div>
+            </center>
+            <!--imagem dividindo-->
+            <br>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 row d-flex justify-content-center align-items-center">
+                <p class="subtitulo p1">Temos também uma boa variedade de bebidas!</p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12">
+                    <div class="row d-flex justify-content-center align-items-center">
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                        <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                        <p id="tracinho" class="tracejado p1">____________________________</p>
+                        <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <!--display dos produtos - linha 2-->
+            <center>
+                <div class="row container-fluid">
+                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
+                        <!--<p class="tracejado p1">P R O D U T O</p>-->
                         <img src="imagens/fotosprodutos/beer1.jpg" alt=""/>
                     </div>
                     <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
@@ -55,35 +96,6 @@
                     <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
                         <!--<p class="tracejado p1">P R O D U T O</p>-->
                         <img src="imagens/fotosprodutos/beer4.jpg" alt=""/>
-                    </div>
-                </div>
-            </center>
-            <!--imagem dividindo-->
-                <div class="row">
-                    <div class="col-12 col-sm-12">
-                        <div class="row d-flex justify-content-center align-items-center">
-                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                            <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
-                            <p id="tracinho" class="tracejado p1">____________________________</p>
-                            <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
-                        </div>
-                        <br>
-                    </div>
-                </div>
-            <!--display dos produtos - linha 2-->
-            <center>
-                <div class="row container-fluid">
-                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
-                    </div>
-                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
-                    </div>
-                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
-                    </div>
-                    <div class="col-12 col-sm-3  justify-content-center produtos_imagens">
-                        <p class="tracejado p1">P R O D U T O</p>
                     </div>
                 </div>
             </center>
