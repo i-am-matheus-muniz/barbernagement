@@ -33,6 +33,8 @@
                 </div>
             </div>
 
+            <!--Menu de navegação entre cadastro e login-->
+            
             <div class="row">
                 <div class="col-12 d-flex justify-content-center align-items-center">
                     <div class="card bg-dark border-warning text-center">
@@ -53,7 +55,7 @@
                             <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade" id="cadastro" role="tabpanel">
                             <div class="card-body fundao" id="cadastro">
-                            <form name="cadastro" id="cadastro" method="post" action="salvar.jsp">
+                            <form name="cadastro" id="cadastro" method="post" action="">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
                                     <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui" class="form-control">
@@ -83,7 +85,7 @@
                             
                             <div class="tab-pane fade" id="login" role="tabpanel">
                             <div class="card-body fundao" id="login">
-                            <form name="login" id="login" method="post" action="salvar.jsp">
+                            <form name="login" id="login" method="post" action="">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
                                     <input type="text" name="email" id="email" placeholder="Digite seu e-mail aqui" class="form-control">
