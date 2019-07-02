@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container-fluid img-fluid">
-            <jsp:include page="navbar.jsp" />
+            <jsp:include page="navbar.jsp"/>
             <!--B-->
 
             <br><br><br>
@@ -47,6 +47,7 @@
                             <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
+                    
                     <div class="row text-center">
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
@@ -55,17 +56,8 @@
 
                             <h3>Cortes de Cabelo</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Nossos barbeiros estão preparados para atender os mais variados estilos de cortes de cabelo e sua 
+                                barba com estilo, escolha os seu corte e venha com a gente. 
                             </p>
 
 
@@ -73,22 +65,13 @@
                         </div>
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/index_img/scissors-kit.png" alt="Barba e cabelo"/>
                             </p>
 
-                            <h3>Cortes de Cabelo</h3>
+                            <h3>Manicure e Pedicure</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Serviços em manicure e pedicure para os clientes, afinal, todas as pessoas
+                                merecem um pouco de vaidade. 
                             </p>
 
 
@@ -96,35 +79,69 @@
                         </div>
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
-                                <img id="barba-icon" src="imagens/male-head-hair-and-beard.png" alt="Barba e cabelo"/>
+                                <img id="barba-icon" src="imagens/index_img/hair-salon-spray-bottles.png"  alt="Barba e cabelo"/>
+                                 
                             </p>
-
-                            <h3>Cortes de Cabelo</h3>
+                            
+                            
+                            <h3>Produtos</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra purus erat, nec malesuada 
-                                metus euismod non. Donec in nulla sed lacus venenatis interdum. Maecenas varius ex ut felis 
-                                facilisis, eu ultricies turpis accumsan. Pellentesque ullamcorper ullamcorper volutpat. 
-                                Sed lacinia eleifend ex non sagittis. Quisque sed cursus leo, a consequat dui. 
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae massa facilisis, 
-                                pellentesque lacus eu, lacinia elit. Sed massa risus, lobortis ut lacus et, luctus 
-                                rhoncus mi. Integer molestie erat mollis, elementum dolor vitae, pharetra orci. 
-
-                                Nunc consequat, ante ac venenatis convallis, lacus lorem gravida enim, sit amet 
-                                porttitor ligula urna a ante. Donec id ante magna. Duis iaculis mauris ut nibh 
-                                convallis sagittis.
+                                Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
                             </p>
-
-
-
                         </div>
                     </div>
+                </div>
+                 <div class="container" id="fundo-home">
+                     <div class="row">
+                        <div class="col-12 col-sm-12">
+                            <br>
+                            <h1 class="align-items-start titulo"> Nossa galeria </h1>
+                            <br>
+                            <div class="row d-flex justify-content-center align-items-center">
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                                <p id="tracao" class="tracejado p1">______________________________________________________________________________________________________</p>
+                                <p id="tracinho" class="tracejado p1">____________________________</p>
+                                <img id="icone-unidade" class="img-fluid" src="imagens/barbershop_1.png" alt="" />
+                            </div>
+                            <br>
+                            <p class="d-flex justify-content-center subtitulo p1">Conheça um pouco mais do nosso trabalho !</p>
+                            <br/><br/>
+                        </div>
+                    </div>
+                     <div class="row text-center">
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte1.jpg" alt="Barba e cabelo"/>
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte2.jpg" alt="Barba e cabelo"/>
+                            </p>
+
+                        </div>
+                        <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte3.jpg"  alt="Barba e cabelo"/> 
+                            </p>
+                            
+                        </div>
+                         <div class="col-12 col-md-3 _card">
+                            <p class="container-icon" id="position-barba">
+                                <img id="barba-icon" src="imagens/corte4.jpg"  alt="Barba e cabelo"/>      
+                            </p>
+                           
+                        </div>
+                    </div>
+                    
 
 
                 </div>
             </div>
         </div>
 
-        <br><br><br><br><br><br><br><br><br>
+        <br><br><br><br>
         <jsp:include page="footer.jsp" /> 
     </body>
 </html> 
