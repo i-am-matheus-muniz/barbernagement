@@ -21,7 +21,8 @@ public class Conexao {
             
             if(con == null) {
                 DriverManager.registerDriver(new com.mysql.jdbc.Driver());
-                con  = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/barbernagement", "root", "1234");
+                con  = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/barbernagement", "root", "1234");                
+                
             }
             
             return con;

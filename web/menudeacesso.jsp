@@ -110,7 +110,7 @@
                             
                             <div class="tab-pane fade" id="login" role="tabpanel">
                             <div class="card-body fundao" id="login">
-                                <form name="formLogin" id="formLogin" method="post" action="cliente/login.jsp">
+                                <form name="formLogin"  method="post" action="cliente/login.jsp">
                                 <div class="form-group">
                                     <label for="nome" class="titulomenor">E-mail:</label>
                                     <input type="text" name="email" placeholder="Digite seu e-mail aqui" class="form-control">
@@ -119,7 +119,7 @@
                                     <label for="nome" class="titulomenor">Senha:</label>
                                     <input type="password" name="senha" placeholder="Digite sua senha aqui" class="form-control">
                                 </div>
-                                <input class="btn btn-success" type="submit" value="Entrar"/>
+                                <input  name="formLogin" class="btn btn-success" type="submit" value="Entrar"/> 
                             </form>
                             </div>
                             </div>

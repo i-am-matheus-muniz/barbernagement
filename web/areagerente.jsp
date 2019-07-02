@@ -1,3 +1,7 @@
+<%@page import="java.util.ArrayList;"%>
+<%@page import="persistencia.ClienteDAO"%>
+<%@page import="dominio.Cliente"%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -16,57 +20,60 @@
         <meta name="viewport" content="width=device-width; initial-scale=1" />
     </head>
     <body>
-        <div class="container-fluid img-fluid">
-            <div class="row" id="menu">
-                <!--A-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                    <a class="btn" href="index.jsp" role="button"> <img src="imagens/logo.png" id="icone"> </a>
-                    <a class="btn" href="cadastre_login.jsp" role="button">Cadastre/Login</a>
-                </div>
-                <!--E-->
-                 <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">                    
-                    <a class="btn" href="index.jsp" role="button">Home</a>
-                    <a class="btn" href="sobrenos.jsp" role="button">Sobre Nós</a> 
-                    <a class="btn" href="sobrenos.jsp" role="button">Serviços</a>
-                    <a class="btn" href="produtos.jsp" role="button">Produtos</a>
-                    <a class="btn" href="unidades.jsp" role="button">Unidades</a>
-                    <a class="btn" href="eventos.jsp" role="button">Contato</a>             
-                </div>
-            </div>
-
-            <!--B-->
-            <div class="row" id="body">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
-                    
-
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-                </div>
-            </div>
-
-
+        <div class="container-fluid">
             <div class="row">
-                <!--C-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
+                <div class="col-12 col-sm-6" id="divA">
+                    Div A
                 </div>
-                <!--D-->
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-
+                <div class="col-12 col-sm-6" id="divB">
+                    Div B
                 </div>
             </div>
-            <div class="row" id="menurodape">
-            <!--A-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-start align-items-center">
-                <a class="btn" href="index.html" role="button"> <img src="imagens/logo.png" id="icone"> </a>
+            <div class="row">
+                <div class="col-12" id="divC">
+                    <h1>Lista de clientes</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nome Completo</th>
+                                <th>Endereço</th>
+                                <th>Telefone</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <%
+                             
+                                //cria uma lista de clientes vazia
+                                ArrayList<Cliente> lista = new ArrayList<>();
+                                
+                                //busca todos os clientes
+                                lista = ClienteDAO.listarClientes();
+                                
+                                //faz um for percorrendo a lista
+                                for (Cliente cliente : lista)  { 
+                              //precisa passar esses outros campos lá no DAO
+                            %>
+                            <tr>
+                                <td><%=cliente.getNome() %></td>
+                                <td><%=cliente.getEndereco()%></td>
+                                <td><%=cliente.getTelefone()%></td>
+                                <td><%=cliente.getEmail()%></td>
+                            </tr>   
+                            
+                            <% } //fecha o for %>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <!--E-->
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 row d-flex justify-content-end align-items-center">
-
-            </div>  
-        </div>
-
+            <div class="row">
+                <div class="col-12 col-sm-6" id="divD">
+                    Div D
+                </div>
+                <div class="col-12 col-sm-6" id="divE">
+                    Div E
+                </div>
+            </div>
         </div>
     </body>
 </html>

@@ -10,6 +10,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 /**
  *
@@ -40,7 +41,7 @@ public class ClienteDAO {
         
          con = Conexao.getConnection();
 
-         String sql = "SELECT id FROM clientes WHERE email = ?";
+         String sql = "SELECT id FROM clientes WHERE email = ? AND senha = ?";
          
          
          try{
@@ -63,11 +64,9 @@ public class ClienteDAO {
          
          return false;
 }
-    
-    public static Cliente fazerLogin(String email, String senha) throws SQLException{
         
-    
-    
+  public static Cliente fazerLogin(String email, String senha) throws SQLException{        
+   
          con = Conexao.getConnection();
 
          String sql = "SELECT id FROM clientes WHERE email = ? AND senha = ?";
@@ -96,5 +95,41 @@ public class ClienteDAO {
          
          return null;
 }
-    
+
+      public static ArrayList<Cliente> listarClientes() {
+        con = Conexao.getConnection();
+        
+        ArrayList<Cliente> clientes = new ArrayList<>();
+        
+        String sql = "SELECT * FROM clientes ORDER BY nome";
+        
+        try {
+            
+            PreparedStatement pdo = con.prepareStatement(sql);
+            
+           
+            ResultSet lista = pdo.executeQuery();
+            
+            while (lista.next()) {
+               Cliente cli = new Cliente() ;
+               cli.setId(lista.getInt("id"));
+               cli.setNome(lista.getString("nome"));
+               cli.setEndereco(lista.getString("endereco"));
+               cli.setTelefone(lista.getString("telefone"));
+               cli.setEmail(lista.getString("email"));
+               //aqui vc coloca os outros campos que quiser retorna na lista
+               
+               clientes.add(cli);
+            }
+            
+            lista.close();
+            
+        } catch(SQLException e) {
+            throw new RuntimeException(e);
+        }
+        
+        return clientes;  //aqui vai retorna a lista com todos os clientes      
+        
+    }
+  
 }
