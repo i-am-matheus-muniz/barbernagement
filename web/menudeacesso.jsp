@@ -28,7 +28,7 @@
                 <div class="col-12 col-sm-12">
                     <h1 class="align-items-start titulo"><br><br> Menu de Acesso </h1>
                     <br>
-                     <%
+                   <%
                             String registro = request.getParameter("registro");
 
                                 if (registro != null) {
