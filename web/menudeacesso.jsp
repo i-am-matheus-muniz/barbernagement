@@ -27,26 +27,6 @@
             <div class="row">
                 <div class="col-12 col-sm-12">
                     <h1 class="align-items-start titulo"><br><br> Menu de Acesso </h1>
-                    <br>
-                   <%
-                            String registro = request.getParameter("registro");
-
-                                if (registro != null) {
-                                        if (registro.equals("true")) {
-                                            out.println("Cadastrado com sucesso!");
-                                        } else {
-                                            out.println("E-mail já cadastrado!");
-                                        }
-                                }
-                                
-                               String login = request.getParameter("login");
-
-                                if (login != null) {
-                                        if (login.equals("false")) {
-                                            out.println("E-mail e/ou senha inválidos!");
-                                }
-                                }
-                   %>
                    <br>
                     <div class="col-12 col-sm-12 row d-flex justify-content-center align-items-center">
                         <img id="icone" src="imagens/barbershop.png">
