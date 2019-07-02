@@ -11,6 +11,8 @@ function copyToClipboard(element) {
   
   $(document).ready(function () {
       
+      $("#telefone").mask("(00)000000000");
+      
       $("#formLogin").each(function () {
           $(this).validate ( {
               rules: {
@@ -36,6 +38,7 @@ function copyToClipboard(element) {
               rules: {
                   nome: {
                       required: true,
+                      minWords: 2,
                       maxlength: 60
                   },
                   
@@ -53,7 +56,7 @@ function copyToClipboard(element) {
                   
                   endereco: {
                       required: true,
-                      minwords: 2,
+                      minWords: 2,
                       maxlength: 100
                   },
                   
