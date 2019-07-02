@@ -23,13 +23,14 @@
             <br><br><br>
             <!--B-->
             <div class="row" id="body">
-                <img id="imagem-capa" src="imagens/barbearia.jpg" class="img-fluid" alt="Imagem responsiva">
-                <div class="container-logo">
-                    <img id="imagem-logo" src="imagens/logo.png" class="img-fluid" alt="Imagem responsiva">
-                </div>
-                <img id="frase" src="imagens/bemVindos.png" class="img-fluid" alt="Imagem responsiva"/>
+                <div class="col-12 hero text-center">
+                    <p><img src="imagens/logo.png" class="w-100" style="max-width: 300px" alt="logo"/></p>
 
-                <div class="container" id="fundo-home">
+                    <p><img  src="imagens/bemVindos.png" class="img-fluid" alt="Imagem responsiva"/></p>
+                </div>
+
+
+                <div class="container">
                     <!--<img id="fundo-preto" src="imagens/black.png" class="img-fluid" alt="Imagem responsiva">-->
 
                     <div class="row">
@@ -47,7 +48,7 @@
                             <p class="d-flex justify-content-center subtitulo p1">O diferencial que você procura em uma barbearia em Guaratinguetá!</p>
                         </div>
                     </div>
-                    
+
                     <div class="row text-center">
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
@@ -80,10 +81,10 @@
                         <div class="col-12 col-md-4 _card">
                             <p class="container-icon" id="position-barba">
                                 <img id="barba-icon" src="imagens/index_img/hair-salon-spray-bottles.png"  alt="Barba e cabelo"/>
-                                 
+
                             </p>
-                            
-                            
+
+
                             <h3>Produtos</h3>
                             <p>
                                 Vendemos produtos na área de cosmeticos, produtos de cabelo, barba, roupas, e acessorios.
@@ -91,8 +92,8 @@
                         </div>
                     </div>
                 </div>
-                 <div class="container" id="fundo-home">
-                     <div class="row">
+                <div class="container">
+                    <div class="row">
                         <div class="col-12 col-sm-12">
                             <br>
                             <h1 class="align-items-start titulo"> Nossa galeria </h1>
@@ -108,7 +109,7 @@
                             <br/><br/>
                         </div>
                     </div>
-                     <div class="row text-center">
+                    <div class="row text-center">
                         <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
                                 <img id="barba-icon" src="imagens/corte1.jpg" alt="Barba e cabelo"/>
@@ -125,16 +126,16 @@
                             <p class="container-icon" id="position-barba">
                                 <img id="barba-icon" src="imagens/corte3.jpg"  alt="Barba e cabelo"/> 
                             </p>
-                            
+
                         </div>
-                         <div class="col-12 col-md-3 _card">
+                        <div class="col-12 col-md-3 _card">
                             <p class="container-icon" id="position-barba">
                                 <img id="barba-icon" src="imagens/corte4.jpg"  alt="Barba e cabelo"/>      
                             </p>
-                           
+
                         </div>
                     </div>
-                    
+
 
 
                 </div>
