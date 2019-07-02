@@ -601,3 +601,12 @@ body{
 ._card > p > img{
     height: 130px
 }*/
+
+.hero{
+    background: url(../imagens/barbearia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+    padding: 30px 0px;
+}
